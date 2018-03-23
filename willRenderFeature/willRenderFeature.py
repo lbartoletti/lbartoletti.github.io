@@ -1,0 +1,7 @@
+layer = iface.activeLayer()
+ctx = QgsRenderContext.fromMapSettings(iface.mapCanvas().mapSettings() )
+r = layer.renderer().clone()
+r.startRender(ctx, layer.fields() )
+feat = layer.getFeature(14)
+ctx.expressionContext().setFeature(feat)
+print(r.willRenderFeature(feat, ctx))
