@@ -1,0 +1,1850 @@
+-- The C compiler identification is Clang 6.0.0
+-- The CXX compiler identification is Clang 6.0.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- QGIS version: 3.3.0 Master (30300)
+-- Could not find GRASS 7
+-- Looking for openpty
+-- Looking for openpty - not found
+-- Looking for openpty
+-- Looking for openpty - found
+-- Looking for proj_info in /usr/local/lib/libproj.so.9.0
+-- Looking for proj_info in /usr/local/lib/libproj.so.9.0 - found
+-- Found Proj: /usr/local/lib/libproj.so.9.0 (5.1.0)
+-- Found GEOS: /usr/local/lib/libgeos_c.so.4.2 (3.6.2)
+-- Found GDAL: /usr/local/lib/libgdal.so.32.0 (2.3.1)
+-- Found Expat: /usr/lib/libexpat.so.12.0
+-- Found Spatialindex: /usr/local/lib/libspatialindex.so.2.0
+-- Found Qwt: /usr/local/lib/libqwt-qt5.so.7.0 (6.1.3)
+-- Found libzip: /usr/local/lib/libzip.so.3.0
+-- Found Sqlite3: /usr/local/lib/libsqlite3.so.37.3
+-- Found PostgreSQL: /usr/local/lib/libpq.so.6.10
+-- Found SpatiaLite: /usr/local/lib/libspatialite.so.1.1
+-- Looking for gaiaStatisticsInvalidate in /usr/local/lib/libspatialite.so.1.1
+-- Looking for gaiaStatisticsInvalidate in /usr/local/lib/libspatialite.so.1.1 - found
+-- Qt WebKit support enabled
+-- Found Qt version: 5.9.6
+-- Found QScintilla2: /usr/local/lib/libqscintilla2_qt5.so.0.0 (2.10.1)
+-- Found QtKeychain: /usr/local/lib/libqt5keychain.so.1.0
+-- Found QCA: /usr/local/lib/libqca-qt5.so.0.0 (2.1.3)
+-- Found QCA OpenSSL plugin
+-- Pedantic compiler settings enabled
+-- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.6.6", minimum required is "3") 
+-- Found Python executable: /usr/local/bin/python3
+-- Found Python version: 3.6.6
+-- Found Python library: /usr/local/lib/libpython3.6m.so.0.0
+-- Found Python site-packages: /usr/local/lib/python3.6/site-packages
+-- Found PyQt5 version: 5.9
+-- Found SIP version: 4.19.3
+-- Found QScintilla2 PyQt module: 2.10.1
+-- txt2tags not found - disabled
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- Found GSL: -L/usr/local/lib -lgsl -lgslcblas -lm
+-- Ctest Binary Directory set to: /home/lbartoletti/prog/build/output/bin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lbartoletti/prog/build
+[0/1] Re-running CMake...
+-- QGIS version: 3.3.0 Master (30300)
+-- Could not find GRASS 7
+-- Found Proj: /usr/local/lib/libproj.so.9.0 (5.1.0)
+-- Found GEOS: /usr/local/lib/libgeos_c.so.4.2 (3.6.2)
+-- Found GDAL: /usr/local/lib/libgdal.so.32.0 (2.3.1)
+-- Found Expat: /usr/lib/libexpat.so.12.0
+-- Found Spatialindex: /usr/local/lib/libspatialindex.so.2.0
+-- Found Qwt: /usr/local/lib/libqwt-qt5.so.7.0 (6.1.3)
+-- Found libzip: /usr/local/lib/libzip.so.3.0
+-- Found Sqlite3: /usr/local/lib/libsqlite3.so.37.3
+-- Found PostgreSQL: /usr/local/lib/libpq.so.6.10
+-- Found SpatiaLite: /usr/local/lib/libspatialite.so.1.1
+-- Qt WebKit support enabled
+-- Found Qt version: 5.9.6
+-- Found QScintilla2: /usr/local/lib/libqscintilla2_qt5.so.0.0 (2.10.1)
+-- Found QtKeychain: /usr/local/lib/libqt5keychain.so.1.0
+-- Found QCA: /usr/local/lib/libqca-qt5.so.0.0 (2.1.3)
+-- Found QCA OpenSSL plugin
+-- Pedantic compiler settings enabled
+-- Found Python executable: /usr/local/bin/python3
+-- Found Python version: 3.6.6
+-- Found Python library: /usr/local/lib/libpython3.6m.so.0.0
+-- Found Python site-packages: /usr/local/lib/python3.6/site-packages
+-- Found PyQt5 version: 5.9
+-- Found SIP version: 4.19.3
+-- Found QScintilla2 PyQt module: 2.10.1
+-- txt2tags not found - disabled
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- Found GSL: -L/usr/local/lib -lgsl -lgslcblas -lm
+-- Ctest Binary Directory set to: /home/lbartoletti/prog/build/output/bin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lbartoletti/prog/build
+[1/4555] Generating ui_qgsmdalsourceselectbase.h
+[2/4555] Generating ui_phongmaterialwidget.h
+[3/4555] Generating ui_qgsmeshrenderermeshsettingswidgetbase.h
+[4/4555] Generating ui_qgssubstitutionlistwidgetbase.h
+[5/4555] Generating ui_qgspointclusterrendererwidgetbase.h
+[6/4555] Generating ui_qgsvectorlayerpropertiesbase.h
+[7/4555] Generating ui_qgsnewmemorylayerdialogbase.h
+[8/4555] Generating ui_qgsnewhttpconnectionbase.h
+[9/4555] Generating ui_qgsnewogrconnectionbase.h
+[10/4555] Generating ui_qgsnewspatialitelayerdialogbase.h
+[11/4555] Generating ui_qgsoffsetuserinputwidget.h
+[12/4555] Generating ui_qgsmeshrenderervectorsettingswidgetbase.h
+[13/4555] Generating ui_animation3dwidget.h
+[14/4555] Generating ui_line3dsymbolwidget.h
+[15/4555] Generating ui_qgsmeshlayerpropertiesbase.h
+[16/4555] Generating ui_qgsrenderercontainerbase.h
+[17/4555] Generating ui_qgslayoutguidewidgetbase.h
+[18/4555] Generating ui_qgslayoutattributeselectiondialogbase.h
+[19/4555] Generating ui_qgslayoutdesignerbase.h
+[20/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgreader18.cpp.o
+[21/4555] Generating ui_qgslayoutlegendwidgetbase.h
+[22/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dxfreader.cpp.o
+[23/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgutil.cpp.o
+[24/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/rscodec.cpp.o
+[25/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgreader27.cpp.o
+[26/4555] Generating ui_qgsrelationreferenceconfigdlgbase.h
+[27/4555] Generating ui_widget_coloreffects.h
+[28/4555] Generating ui_widget_transform.h
+[29/4555] Generating ui_qgsprocessingalgorithmdialogbase.h
+[30/4555] Generating resources_rc.py
+[31/4555] Generating ui_qgsdummyconfigdlgbase.h
+[32/4555] Generating ui_qgsstatisticalsummarybase.h
+[33/4555] Generating ui_qgsrendererv2propsdialogbase.h
+[34/4555] Generating core/sip_corepart0.cpp, core/sip_corepart1.cpp, core/sip_corepart2.cpp, core/sip_corepart3.cpp
+
+[35/4555] Generating ui_qgsfeatureselectiondlg.h
+[36/4555] Generating ui_qgsdetaileditemwidgetbase.h
+[37/4555] Generating ui_qgsdisplayanglebase.h
+[38/4555] Generating ui_qgsdelimitedtextsourceselectbase.h
+[39/4555] Generating ui_qgsdiagrampropertiesbase.h
+[40/4555] Generating ui_qgsexpressionbuilder.h
+[41/4555] Generating ui_qgsexpressionselectiondialogbase.h
+[42/4555] Running utility command for pytesting
+[43/4555] Generating ui_qgsdwgimportbase.h
+[44/4555] Generating ui_qgscustomprojectiondialogbase.h
+[45/4555] Generating ui_qgsdb2newconnectionbase.h
+[46/4555] Generating ui_qgsdbsourceselectbase.h
+[47/4555] Generating ui_qgsdatasourcemanagerdialog.h
+[48/4555] Generating ui_qgsdelattrdialogbase.h
+[49/4555] Generating ui_qgsbrowserpropertiesdialogbase.h
+[50/4555] Generating ui_qgsdatumtransformdialogbase.h
+[51/4555] Generating ui_qgscredentialdialog.h
+[52/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/drw_header.cpp.o
+[53/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/drw_classes.cpp.o
+[54/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/libdwgr.cpp.o
+[55/4555] Building CXX object src/native/CMakeFiles/qgis_native.dir/qgsnative.cpp.o
+[56/4555] Generating ui_qgsauthimportcertdialog.h
+[57/4555] Generating ui_qgsauthconfigidedit.h
+[58/4555] Generating ui_qgsauthconfigedit.h
+[59/4555] Generating ui_qgsauthsslerrorsdialog.h
+[60/4555] Generating ui_qgsauthconfigselect.h
+[61/4555] Generating ui_qgsauthserverseditor.h
+[62/4555] Generating ui_qgsauthsslimporterrors.h
+[63/4555] Generating ui_qgslayoutatlaswidgetbase.h
+[64/4555] Generating ui_qgsfieldconditionalformatwidget.h
+[65/4555] Generating ui_qgsformannotationdialogbase.h
+[66/4555] Generating ui_qgslimitedrandomcolorrampwidgetbase.h
+[67/4555] Generating ui_qgsgroupwmsdatadialogbase.h
+[68/4555] Generating ui_qgsludialogbase.h
+[69/4555] Generating ui_qgslabelingwidget.h
+[70/4555] Generating ui_qgslabelingrulepropswidget.h
+[71/4555] Generating ui_qgslayoutnewitemproperties.h
+[72/4555] Generating ui_qgslayoutitemwidgetbase.h
+[73/4555] Generating ui_qgslayoutnewpagedialog.h
+[74/4555] Generating ui_qgslayoutshapewidgetbase.h
+[75/4555] Generating ui_qgslayoutmanagerbase.h
+[76/4555] Generating ui_qgslayoutattributetablewidgetbase.h
+[77/4555] Generating ui_qgslayoutpagepropertieswidget.h
+[78/4555] Generating ui_qgslayoutmapgridwidgetbase.h
+[79/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgreader15.cpp.o
+[80/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgreader21.cpp.o
+[81/4555] Generating qgsversion.h, qgsversion.inc
+Files "/home/lbartoletti/prog/build/qgsversion.h.temp" to "/home/lbartoletti/prog/build/qgsversion.h" are different.
+[82/4555] Generating ui_qgsrangeconfigdlgbase.h
+[83/4555] Generating ui_qgscalendarconfigdlgbase.h
+[84/4555] Generating ui_widget_drawsource.h
+[85/4555] Generating ui_widget_set_dd_value.h
+[86/4555] Generating ui_widget_shapeburstfill.h
+[87/4555] Generating ui_widget_pointpatternfill.h
+[88/4555] Generating ui_qgsdatetimeeditconfig.h
+[89/4555] Generating ui_qgspropertygenericnumericassistantwidget.h
+[90/4555] Generating ui_qgsprojectionselectorbase.h
+[91/4555] Running utility command for pyutils
+[92/4555] Generating annotations/moc_qgsannotationmanager.cpp
+[93/4555] Generating annotations/moc_qgshtmlannotation.cpp
+[94/4555] Generating moc_qgsvectorlayereditpassthrough.cpp
+[95/4555] Generating moc_qgsvectorlayertools.cpp
+[96/4555] Generating moc_qgsvectorlayerexporter.cpp
+[97/4555] Generating moc_qgsvectorsimplifymethod.cpp
+[98/4555] Generating moc_qgswebview.cpp
+[99/4555] Generating moc_qgsbrowsermodel.cpp
+[100/4555] Generating moc_qgsdatasourceuri.cpp
+[101/4555] Generating moc_qgsvectorlayerrenderer.cpp
+[102/4555] Generating providers/memory/moc_qgsmemoryprovider.cpp
+[103/4555] Generating processing/moc_qgsprocessingalgrunnertask.cpp
+[104/4555] Generating geometry/moc_qgspoint.cpp
+[105/4555] Generating processing/moc_qgsprocessingregistry.cpp
+[106/4555] Generating layout/moc_qgslayoutitemnodeitem.cpp
+[107/4555] Generating layout/moc_qgslayoutguidecollection.cpp
+[108/4555] Generating layout/moc_qgslayoutitempicture.cpp
+[109/4555] Generating layout/moc_qgslayouteffect.cpp
+[110/4555] Generating layout/moc_qgslayoutitemlabel.cpp
+[111/4555] Generating gps/moc_qgsgpsconnection.cpp
+[112/4555] Generating moc_qgsfeature.cpp
+[113/4555] Generating processing/moc_qgsprocessingfeedback.cpp
+[114/4555] Generating mesh/moc_qgsmeshmemorydataprovider.cpp
+[115/4555] Generating geometry/moc_qgsabstractgeometry.cpp
+[116/4555] Generating raster/moc_qgsrasterinterface.cpp
+[117/4555] Generating geometry/moc_qgsgeometry.cpp
+[118/4555] Generating mesh/moc_qgsmeshdataprovider.cpp
+[119/4555] Generating raster/moc_qgsrasterprojector.cpp
+[120/4555] Generating symbology/moc_qgscptcityarchive.cpp
+[121/4555] Generating layout/moc_qgslayouttablecolumn.cpp
+[122/4555] Generating layout/moc_qgsprintlayout.cpp
+[123/4555] Generating moc_qgsfiledownloader.cpp
+[124/4555] Generating moc_qgsfeaturefiltermodel.cpp
+[125/4555] Generating moc_qgsfieldmodel.cpp
+[126/4555] Generating moc_qgsactionmanager.cpp
+[127/4555] Generating moc_qgsanimatedicon.cpp
+[128/4555] Generating ui_qgsprocessingalgorithmprogressdialogbase.h
+[129/4555] Generating ui_qgseffectstackpropertieswidgetbase.h
+[130/4555] Generating ui_qgsauthcertificatemanager.h
+[131/4555] Generating ui_qgsvaluemapconfigdlgbase.h
+[132/4555] Generating ui_widget_blur.h
+[133/4555] Generating ui_widget_shadoweffect.h
+[134/4555] Running utility command for pyqtcompat
+[135/4555] Generating ui_widget_layerproperties.h
+[136/4555] Generating ui_widget_symbolslist.h
+[137/4555] Generating ui_widget_centroidfill.h
+[138/4555] Generating ui_widget_ellipse.h
+[139/4555] Generating ui_widget_svgfill.h
+[140/4555] Generating layertree/moc_qgslayertreeregistrybridge.cpp
+[141/4555] Generating symbology/moc_qgssvgcache.cpp
+[142/4555] Generating moc_qgsmessageoutput.cpp
+[143/4555] Generating moc_qgsmaplayer.cpp
+[144/4555] Generating moc_qgsfield.cpp
+[145/4555] Generating moc_qgsnetworkaccessmanager.cpp
+[146/4555] Generating moc_qgsmaprenderertask.cpp
+[147/4555] Generating flex_qgsexpressionlexer.cpp
+[148/4555] Generating moc_qgsmaprenderercache.cpp
+[149/4555] Generating moc_qgsmaprendererparalleljob.cpp
+[150/4555] Generating processing/moc_qgsprocessingprovider.cpp
+[151/4555] Generating locator/moc_qgslocator.cpp
+[152/4555] Generating raster/moc_qgsrasterdataprovider.cpp
+[153/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgreader.cpp.o
+[154/4555] Generating ui_qgscheckboxconfigdlgbase.h
+[155/4555] Generating ui_widget_svgselector.h
+[156/4555] Generating ui_qgssinglebandpseudocolorrendererwidgetbase.h
+[157/4555] Generating ui_qgsuserprofilemanagerwidget.h
+[158/4555] Generating ui_qgsstyleexportimportdialogbase.h
+[159/4555] Generating ui_qgstablewidgetuibase.h
+[160/4555] Generating ui_qgsunitselectionwidget.h
+[161/4555] Generating ui_qgssimplifytolerancedialog.h
+[162/4555] Generating ui_qgssinglebandgrayrendererwidgetbase.h
+[163/4555] Generating ui_qgsrelationadddlgbase.h
+[164/4555] Generating ui_widget_rasterfill.h
+[165/4555] Generating ui_widget_fontmarker.h
+[166/4555] Generating ui_qgsexternalresourceconfigdlg.h
+[167/4555] Generating ui_qgsuniquevaluesconfigdlgbase.h
+[168/4555] Generating ui_widget_vectorfield.h
+[169/4555] Generating ui_widget_simplemarker.h
+[170/4555] Generating ui_widget_svgmarker.h
+[171/4555] Generating ui_qgstexteditconfigdlg.h
+[172/4555] Generating moc_qgsfieldproxymodel.cpp
+[173/4555] Generating moc_qgsgml.cpp
+[174/4555] Generating moc_qgsmaplayerstylemanager.cpp
+[175/4555] Generating moc_qgsdbfilterproxymodel.cpp
+[176/4555] Generating qgsexpression_texts.cpp
+Files "/home/lbartoletti/prog/build/src/core/qgsexpression_texts.cpp.temp" to "/home/lbartoletti/prog/build/src/core/qgsexpression_texts.cpp" are different.
+[177/4555] Generating moc_qgsfeaturefiltermodel_p.cpp
+[178/4555] Generating ui_qgsdiscoverrelationsdlgbase.h
+[179/4555] Generating ui_qgserrordialogbase.h
+[180/4555] Generating ui_qgsextentgroupboxwidget.h
+[181/4555] Generating ui_qgsfieldcalculatorbase.h
+[182/4555] Generating ui_qgsdecorationlayoutextentdialog.h
+[183/4555] Generating ui_qgsheatmaprendererwidgetbase.h
+[184/4555] Generating ui_widget_gradientfill.h
+[185/4555] Generating ui_widget_simpleline.h
+[186/4555] Generating ui_widget_filledmarker.h
+[187/4555] Generating ui_widget_simplefill.h
+[188/4555] Generating ui_qgs25drendererwidgetbase.h
+[189/4555] Generating ui_qgsdualviewbase.h
+[190/4555] Generating ui_qgsgraduatedsymbolrendererv2widget.h
+[191/4555] Generating ui_qgsdxfexportdialogbase.h
+[192/4555] Generating ui_qgsfirstrundialog.h
+[193/4555] Generating ui_qgsgeonodesourceselectbase.h
+[194/4555] Generating ui_qgsgradientcolorrampdialogbase.h
+[195/4555] Generating ui_qgslayout3dmapwidgetbase.h
+[196/4555] Generating ui_qgslayoutimageexportoptions.h
+[197/4555] Generating ui_qgsrastertransparencywidget.h
+[198/4555] Generating ui_qgslayouthtmlwidgetbase.h
+[199/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/libdxfrw.cpp.o
+[200/4555] Generating ui_qgsreportorganizerwidgetbase.h
+[201/4555] Generating ui_qgssvgexportoptions.h
+[202/4555] Generating ui_qgsreportwidgetlayoutsectionbase.h
+[203/4555] Generating ui_qgslayoutpicturewidgetbase.h
+[204/4555] Generating ui_qgslayoutscalebarwidgetbase.h
+[205/4555] Generating ui_qgslayoutlegendlayersdialogbase.h
+[206/4555] Generating layout/moc_qgslayoutpagecollection.cpp
+[207/4555] Generating layout/moc_qgslayoutitemgroupundocommand.cpp
+[208/4555] Generating layout/moc_qgslayoutitemlegend.cpp
+[209/4555] Generating layout/moc_qgslayoutitemscalebar.cpp
+[210/4555] Generating layout/moc_qgslayoutitemgroup.cpp
+[211/4555] Generating ui_qgsexpressionbuilderdialogbase.h
+[212/4555] Generating ui_qgsgenericprojectionselectorbase.h
+[213/4555] Generating ui_qgsgpsinformationwidgetbase.h
+[214/4555] Generating analysis/sip_analysispart0.cpp, analysis/sip_analysispart1.cpp, analysis/sip_analysispart2.cpp, analysis/sip_analysispart3.cpp
+
+[215/4555] Generating layout/moc_qgslayoutitemshape.cpp
+[216/4555] Generating layout/moc_qgslayoutmodel.cpp
+[217/4555] Generating layout/moc_qgslayoutitemregistry.cpp
+[218/4555] Generating layout/moc_qgslayoutmanager.cpp
+[219/4555] Generating layout/moc_qgslayoutreportcontext.cpp
+[220/4555] Generating layout/moc_qgslayoutitempolygon.cpp
+[221/4555] Generating ui_qgstextannotationdialogbase.h
+[222/4555] Generating ui_qgsstylesavedialog.h
+[223/4555] Generating ui_qgssourcefieldsproperties.h
+[224/4555] Generating ui_qgssublayersdialogbase.h
+[225/4555] Generating ui_qgstilescalewidgetbase.h
+[226/4555] Generating ui_qgsspatialitesridsdialogbase.h
+[227/4555] Generating ui_qgsstylegroupselectiondialogbase.h
+[228/4555] Generating moc_qgsnetworkreplyparser.cpp
+[229/4555] Generating moc_qgsnetworkdiskcache.cpp
+[230/4555] Generating moc_qgsrelationmanager.cpp
+[231/4555] Generating moc_qgspointxy.cpp
+[232/4555] Generating moc_qgstracer.cpp
+[233/4555] Generating moc_qgsvectordataprovider.cpp
+[234/4555] Generating moc_qgsvectorfilewritertask.cpp
+[235/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/drw_dbg.cpp.o
+[236/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgbuffer.cpp.o
+[237/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dwgreader24.cpp.o
+[238/4555] Generating layout/moc_qgslayoutitem.cpp
+[239/4555] Generating layout/moc_qgslayoutframe.cpp
+[240/4555] Generating gps/moc_qgsgpsdconnection.cpp
+[241/4555] Generating gps/moc_qgsgpsdetector.cpp
+[242/4555] Generating layout/moc_qgslayoutatlas.cpp
+[243/4555] Generating layout/moc_qgslayoutitemhtml.cpp
+[244/4555] Generating layout/moc_qgslayoutitemmap.cpp
+[245/4555] Generating gps/moc_qgsnmeaconnection.cpp
+[246/4555] Generating ui_qgsjoindialogbase.h
+[247/4555] Generating ui_qgsloadstylefromdbdialog.h
+[248/4555] Generating ui_qgslabelpropertydialogbase.h
+[249/4555] Generating ui_qgsgdalsourceselectbase.h
+[250/4555] Generating ui_qgshistogramwidgetbase.h
+[251/4555] Generating ui_qgsnewauxiliaryfielddialogbase.h
+[252/4555] Generating ui_qgspalettedrendererwidgetbase.h
+[253/4555] Generating ui_qgspresetcolorrampwidgetbase.h
+[254/4555] Generating raster/moc_qgsrasterlayer.cpp
+[255/4555] Generating raster/moc_qgsrasterfilewritertask.cpp
+[256/4555] Generating raster/moc_qgsrasterlayerrenderer.cpp
+[257/4555] Generating annotations/moc_qgssvgannotation.cpp
+[258/4555] Generating mesh/moc_qgsmeshlayer.cpp
+[259/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/drw_textcodec.cpp.o
+[260/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/drw_objects.cpp.o
+[261/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/drw_entities.cpp.o
+[262/4555] Generating ui_qgsogrsourceselectbase.h
+[263/4555] Generating ui_qgsoraclenewconnectionbase.h
+[264/4555] Generating ui_qgsmessagelogviewer.h
+[265/4555] Generating ui_qgsowssourceselectbase.h
+[266/4555] Generating ui_qgsorderbydialogbase.h
+[267/4555] Generating ui_qgsnewvectorlayerdialogbase.h
+[268/4555] Generating ui_qgsmapunitscalewidgetbase.h
+[269/4555] Generating ui_qgsmapstylingwidgetbase.h
+[270/4555] Generating ui_qgsoptionsbase.h
+[271/4555] Generating ui_qgsdatadefinedsizelegendwidget.h
+[272/4555] Generating ui_qgsdecorationnortharrowdialog.h
+[273/4555] Generating ui_qgscolorbrewercolorrampwidgetbase.h
+[274/4555] Generating ui_qgscategorizedsymbolrendererv2widget.h
+[275/4555] Generating ui_qgscustomizationdialogbase.h
+[276/4555] Generating ui_qgscompoundcolorwidget.h
+[277/4555] Generating ui_qgsdecorationcopyrightdialog.h
+[278/4555] Generating ui_qgsdatumtransformtablewidgetbase.h
+[279/4555] Generating ui_qgscolorrampshaderwidgetbase.h
+[280/4555] Generating ui_qgsdecorationscalebardialog.h
+[281/4555] Generating ui_qgscptcitycolorrampv2dialogbase.h
+[282/4555] Generating ui_qgsdecorationgriddialog.h
+[283/4555] Generating ui_qgsconfigureshortcutsdialog.h
+[284/4555] Generating moc_qgsgeometryvalidator.cpp
+[285/4555] Generating moc_qgsfieldformatterregistry.cpp
+[286/4555] Generating moc_qgscoordinatereferencesystem.cpp
+[287/4555] Generating moc_qgsfieldconstraints.cpp
+[288/4555] Generating moc_qgsgmlschema.cpp
+[289/4555] Generating ui_map3dconfigwidget.h
+[290/4555] Generating ui_qgsmeshrendererscalarsettingswidgetbase.h
+[291/4555] Generating ui_qgsrenderermeshpropswidgetbase.h
+[292/4555] Generating moc_qgsrunprocess.cpp
+[293/4555] Generating moc_qgstolerance.cpp
+[294/4555] Generating moc_qgstransaction.cpp
+[295/4555] Generating moc_qgsproject.cpp
+[296/4555] Generating moc_qgsowsconnection.cpp
+[297/4555] Generating moc_qgsnetworkcontentfetcherregistry.cpp
+[298/4555] Generating moc_qgstransactiongroup.cpp
+[299/4555] Generating moc_qgsmessagelog.cpp
+[300/4555] Generating layout/moc_qgslayoutitempage.cpp
+[301/4555] Generating layout/moc_qgslayoutitemmapoverview.cpp
+[302/4555] Generating layout/moc_qgslayoutitempolyline.cpp
+[303/4555] Generating layout/moc_qgslayoutmultiframe.cpp
+[304/4555] Generating layout/moc_qgslayoutitemtexttable.cpp
+[305/4555] Generating layout/moc_qgslayoutobject.cpp
+[306/4555] Building CXX object src/native/CMakeFiles/qgis_native.dir/linux/qgslinuxnative.cpp.o
+[307/4555] Linking CXX shared library output/lib/libqgis_native.so.3.3
+[308/4555] Creating library symlink output/lib/libqgis_native.so
+[309/4555] Generating layout/moc_qgslayouttable.cpp
+[310/4555] Generating layout/moc_qgslayoutundostack.cpp
+[311/4555] Generating layout/moc_qgslayoutrendercontext.cpp
+[312/4555] Generating gps/moc_qgsqtlocationconnection.cpp
+[313/4555] Generating layertree/moc_qgslayertreemodel.cpp
+[314/4555] Generating layertree/moc_qgslayertreemodellegendnode.cpp
+[315/4555] Generating ui_qgsgeometrygeneratorwidgetbase.h
+[316/4555] Generating ui_qgswfssourceselectbase.h
+[317/4555] Generating ui_qgstipguibase.h
+[318/4555] Generating ui_qgssymbollevelsdialogbase.h
+[319/4555] Generating ui_qgssymbolselectordialogbase.h
+[320/4555] Generating ui_qgstextformatwidgetbase.h
+[321/4555] Generating ui_qgsvectorlayersaveasdialogbase.h
+[322/4555] Generating ui_qgsdashspacedialogbase.h
+[323/4555] Generating ui_point3dsymbolwidget.h
+[324/4555] Generating ui_polygon3dsymbolwidget.h
+[325/4555] Generating ui_qgsmeshrendereractivedatasetwidgetbase.h
+[326/4555] Generating moc_qgsproxyprogresstask.cpp
+[327/4555] Generating moc_qgstaskmanager.cpp
+[328/4555] Generating moc_qgsrelation.cpp
+[329/4555] Generating moc_qgssnappingconfig.cpp
+[330/4555] Generating moc_qgspluginlayer.cpp
+[331/4555] Generating moc_qgsunittypes.cpp
+[332/4555] Generating moc_qgsvectorlayercache.cpp
+[333/4555] Generating moc_qgsnetworkcontentfetchertask.cpp
+[334/4555] Generating moc_qgsmaprendererjob.cpp
+[335/4555] Generating moc_qgsmaprenderersequentialjob.cpp
+[336/4555] Generating moc_qgsmaprenderercustompainterjob.cpp
+[337/4555] Generating locator/moc_qgslocatormodel.cpp
+[338/4555] Generating moc_qgsvirtuallayertask.cpp
+[339/4555] Generating annotations/moc_qgstextannotation.cpp
+[340/4555] Generating moc_qgsmapthemecollection.cpp
+[341/4555] Generating annotations/moc_qgsannotation.cpp
+[342/4555] Generating locator/moc_qgslocatorfilter.cpp
+[343/4555] Generating ui_qgsmetadatawidget.h
+[344/4555] Generating ui_qgsidentifyresultsbase.h
+[345/4555] Generating ui_qgslabelengineconfigdialog.h
+[346/4555] Generating moc_qgsdataitem.cpp
+[347/4555] Generating moc_qgsfeedback.cpp
+[348/4555] Generating moc_qgsapplication.cpp
+[349/4555] Generating flex_qgssqlstatementlexer.cpp
+[350/4555] Generating qgssqlstatementparser.cpp
+[351/4555] Running utility command for zzz-MetaSearch-stageinstall
+[352/4555] Generating ui_qgsmapsavedialog.h
+[353/4555] Generating ui_qgsmanageconnectionsdialogbase.h
+[354/4555] Generating ui_qgsinvertedpolygonrendererwidgetbase.h
+[355/4555] Generating ui_qgslayertreeembeddedconfigwidgetbase.h
+[356/4555] Generating ui_qgshandlebadlayersbase.h
+[357/4555] Generating ui_qgsmapcanvasdockwidgetbase.h
+[358/4555] Generating ui_qgsauthsslconfigwidget.h
+[359/4555] Generating ui_qgsautheditorwidgets.h
+[360/4555] Generating ui_qgsauthmasterpassresetdialog.h
+[361/4555] Generating ui_qgsauthtrustedcasdialog.h
+[362/4555] Generating ui_qgsaddtaborgroupbase.h
+[363/4555] Generating ui_qgsattributeloadfrommap.h
+[364/4555] Generating ui_qgsattributesforminitcode.h
+[365/4555] Generating ui_qgsattributesformproperties.h
+[366/4555] Generating ui_qgsbookmarksbase.h
+[367/4555] Generating ui_qgsattributerelationedit.h
+[368/4555] Generating ui_qgsattributeactiondialogbase.h
+[369/4555] Generating ui_qgsadvanceddigitizingdockwidgetbase.h
+[370/4555] Generating moc_qgsmaplayerproxymodel.cpp
+[371/4555] Generating moc_qgsmaplayerlegend.cpp
+[372/4555] Generating moc_qgsofflineediting.cpp
+[373/4555] Generating moc_qgsnetworkcontentfetcher.cpp
+[374/4555] Generating moc_qgsmaplayermodel.cpp
+[375/4555] Generating moc_qgsmaplayerstore.cpp
+[376/4555] Generating moc_qgscredentials.cpp
+[377/4555] Generating qgsexpressionparser.cpp
+[378/4555] Generating moc_qgsdataprovider.cpp
+[379/4555] Generating moc_qgsauxiliarystorage.cpp
+[380/4555] Generating moc_qgsactionscoperegistry.cpp
+[381/4555] Generating layertree/moc_qgslayertreegroup.cpp
+[382/4555] Generating layertree/moc_qgslayertreelayer.cpp
+[383/4555] Generating layertree/moc_qgslayertreenode.cpp
+[384/4555] Generating moc_qgsuserprofilemanager.cpp
+[385/4555] Generating moc_qgsvectorlayer.cpp
+[386/4555] Generating moc_qgsvectorlayerjoinbuffer.cpp
+[387/4555] Generating moc_qgswebpage.cpp
+[388/4555] Generating moc_qgssettings.cpp
+[389/4555] Generating auth/moc_qgsauthmethod.cpp
+[390/4555] Generating moc_qgsvectorlayerfeaturecounter.cpp
+[391/4555] Generating auth/moc_qgsauthmanager.cpp
+[392/4555] Generating ui_qgsrendererrulepropsdialogbase.h
+[393/4555] Generating ui_qgspropertycolorassistantwidget.h
+[394/4555] Generating ui_qgssmartgroupeditordialogbase.h
+[395/4555] Generating ui_qgsrasterformatsaveoptionswidgetbase.h
+[396/4555] Generating ui_qgssavetodbdialog.h
+[397/4555] Generating ui_qgswmtsdimensionsbase.h
+[398/4555] Generating ui_qgsarrowsymbollayerwidgetbase.h
+[399/4555] Generating ui_qgswmssourceselectbase.h
+[400/4555] Generating ui_widget_markerline.h
+[401/4555] Generating ui_widget_linepatternfill.h
+[402/4555] Generating ui_qgsxyzconnectiondialog.h
+[403/4555] Generating ui_qgsprojectlayergroupdialogbase.h
+[404/4555] Generating ui_qgsrelationmanagerdialogbase.h
+[405/4555] Generating ui_qgsrasterhistogramwidgetbase.h
+[406/4555] Generating ui_qgspropertysizeassistantwidget.h
+[407/4555] Generating ui_qgsquerybuilderbase.h
+[408/4555] Generating ui_qgsrasterpyramidsoptionswidgetbase.h
+[409/4555] Generating ui_qgsrasterlayersaveasdialogbase.h
+[410/4555] Generating ui_qgsrasterlayerpropertiesbase.h
+[411/4555] Generating ui_qgsrastercalcdialogbase.h
+[412/4555] Generating ui_qgspostgresprojectstoragedialog.h
+[413/4555] Generating ui_qgsrasterminmaxwidgetbase.h
+[414/4555] Generating ui_qgspgnewconnectionbase.h
+[415/4555] Generating ui_qgspointdisplacementrendererwidgetbase.h
+[416/4555] Generating ui_qgspropertyassistantwidgetbase.h
+[417/4555] Generating ui_qgspastetransformationsbase.h
+[418/4555] Generating ui_qgsprojectpropertiesbase.h
+[419/4555] Generating ui_qgslayoutlabelwidgetbase.h
+[420/4555] Generating ui_qgsauthimportidentitydialog.h
+[421/4555] Generating ui_qgsauthsslimportdialog.h
+[422/4555] Generating ui_qgshillshaderendererwidget.h
+[423/4555] Generating ui_qgsauthsettingswidget.h
+[424/4555] Generating ui_qgsreportwidgetfieldgroupsectionbase.h
+[425/4555] Generating ui_qgslayoutmapwidgetbase.h
+[426/4555] Generating ui_qgsreportwidgetsectionbase.h
+[427/4555] Generating ui_qgslayoutpolylinewidgetbase.h
+[428/4555] Generating ui_qgslayoutpolygonwidgetbase.h
+[429/4555] Generating ui_qgslayouttablebackgroundstyles.h
+[430/4555] Generating ui_qgslayoutwidgetbase.h
+[431/4555] Building CXX object src/app/dwg/libdxfrw/CMakeFiles/libdxfrw.dir/intern/dxfwriter.cpp.o
+[432/4555] Generating ui_qgsalignrasterdialog.h
+[433/4555] Generating ui_qgsabout.h
+[434/4555] Generating ui_qgsattributetabledialog.h
+[435/4555] Generating ui_qgsbrowserlayerpropertiesbase.h
+[436/4555] Generating ui_qgsbrowserdockwidgetbase.h
+[437/4555] Generating ui_qgscolordialog.h
+[438/4555] Generating ui_qgscharacterselectdialogbase.h
+[439/4555] Generating ui_qgsattributetypeedit.h
+[440/4555] Generating ui_qgsbrowserdirectorypropertiesbase.h
+[441/4555] Generating ui_qgsarcgisservicesourceselectbase.h
+[442/4555] Generating ui_qgsattributeactionpropertiesdialogbase.h
+[443/4555] Generating ui_qgsaddattrdialogbase.h
+[444/4555] Generating ui_qgsannotationwidgetbase.h
+[445/4555] Generating ui_qgsauthconfiguriedit.h
+[446/4555] Generating ui_qgseffectpropertieswidget.h
+[447/4555] Generating ui_qgsauthconfigeditor.h
+[448/4555] Generating ui_qgsvaluerelationconfigdlgbase.h
+[449/4555] Generating ui_qgsauthcertificateinfo.h
+[450/4555] Generating ui_qgsauthidentitieseditor.h
+[451/4555] Generating gui/sip_guipart0.cpp, gui/sip_guipart1.cpp, gui/sip_guipart2.cpp, gui/sip_guipart3.cpp
+
+[452/4555] Generating ui_widget_glow.h
+[453/4555] Generating ui_qgsauthmethodplugins.h
+[454/4555] Generating ui_qgsauthauthoritieseditor.h
+[455/4555] Generating ui_qgisapp.h
+[456/4555] Generating ui_qgssqlcomposerdialogbase.h
+[457/4555] Linking CXX static library src/app/dwg/libdxfrw/liblibdxfrw.a
+[458/4555] Generating ui_qgsrulebasedlabelingwidget.h
+[459/4555] Generating ui_qgssmartgroupconditionwidget.h
+[460/4555] Generating ui_qgsrulebasedrendererv2widget.h
+[461/4555] Generating ui_qgsstylemanagerdialogbase.h
+[462/4555] Generating ui_qgsrendererrasterpropswidgetbase.h
+[463/4555] Generating ui_qgsmultibandcolorrendererwidgetbase.h
+[464/4555] Generating ui_qgsmeasurebase.h
+[465/4555] Generating ui_qgspluginmanagerbase.h
+[466/4555] Generating ui_qgsmergeattributesdialogbase.h
+[467/4555] Generating ui_qgsnewauxiliarylayerdialogbase.h
+[468/4555] Generating ui_qgsmssqlnewconnectionbase.h
+[469/4555] Generating ui_qgsnewgeopackagelayerdialogbase.h
+[470/4555] Generating ui_qgsorganizetablecolumnsdialog.h
+[471/4555] Generating ui_qgsmessageviewer.h
+[472/4555] Generating moc_qgspointlocator.cpp
+[473/4555] Generating moc_qgstrackedvectorlayertools.cpp
+[474/4555] Generating moc_qgsvectorlayereditbuffer.cpp
+[475/4555] Generating layout/moc_qgsreport.cpp
+[476/4555] Generating moc_qgssnappingutils.cpp
+[477/4555] Generating layertree/moc_qgslayertree.cpp
+[478/4555] Generating symbology/moc_qgsstyle.cpp
+[479/4555] Generating layout/moc_qgslayoutitemmapitem.cpp
+[480/4555] Generating layout/moc_qgslayoutitemattributetable.cpp
+[481/4555] Generating geocms/geonode/moc_qgsgeonoderequest.cpp
+[482/4555] Generating layout/moc_qgslayoutitemmapgrid.cpp
+[483/4555] Generating layout/moc_qgslayout.cpp
+[484/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsnullsymbolrenderer.cpp.o
+[485/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsinvertedpolygonrenderer.cpp.o
+[486/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgslegendsymbolitem.cpp.o
+[487/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsmarkersymbollayer.cpp.o
+[488/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/qgsauthcrypto.cpp.o
+[489/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/expression/qgsexpressionfunction.cpp.o
+[490/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/qgsannotation.cpp.o
+[491/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerundocommand.cpp.o
+[492/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerrenderer.cpp.o
+[493/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayertools.cpp.o
+[494/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmapthemecollection.cpp.o
+[495/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerlabelprovider.cpp.o
+[496/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasteriterator.cpp.o
+[497/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/tok.c.o
+[498/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/context.c.o
+[499/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/gmath.c.o
+[500/4555] Running utility command for zzz-processing-stageinstall
+[501/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemlegend.cpp.o
+[502/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemlabel.cpp.o
+[503/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingcontext.cpp.o
+[504/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingparametertype.cpp.o
+[505/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingregistry.cpp.o
+[506/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingalgorithm.cpp.o
+[507/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgstolerance.cpp.o
+[508/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgstransactiongroup.cpp.o
+[509/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgstrackedvectorlayertools.cpp.o
+[510/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsrelation.cpp.o
+[511/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgstracer.cpp.o
+[512/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdartmeasurement.cpp.o
+[513/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscoordinateformatter.cpp.o
+[514/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscredentials.cpp.o
+[515/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscoordinateutils.cpp.o
+[516/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgsvaluemapfieldformatter.cpp.o
+[517/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geocms/geonode/qgsgeonodeconnection.cpp.o
+[518/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrastershaderfunction.cpp.o
+[519/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterminmaxorigin.cpp.o
+[520/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsmultibandcolorrenderer.cpp.o
+[521/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsbilinearrasterresampler.cpp.o
+[522/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/moc_qgsnmeaconnection.cpp.o
+[523/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/moc_qgsgpsconnection.cpp.o
+[524/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geocms/geonode/moc_qgsgeonoderequest.cpp.o
+[525/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/moc_qgsmeshlayer.cpp.o
+[526/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/moc_qgsgeometry.cpp.o
+[527/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/moc_qgsmeshmemorydataprovider.cpp.o
+[528/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgscircularstring.cpp.o
+[529/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgscircle.cpp.o
+[530/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshrenderersettings.cpp.o
+[531/4555] Building CXX object python/CMakeFiles/python_module_qgis__core.dir/core/sip_corepart3.cpp.o
+[532/4555] Building CXX object python/CMakeFiles/python_module_qgis__core.dir/core/sip_corepart1.cpp.o
+[533/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsdatasourceuri.cpp.o
+[534/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsauxiliarystorage.cpp.o
+[535/4555] Building CXX object python/CMakeFiles/python_module_qgis__core.dir/core/sip_corepart0.cpp.o
+[536/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsactionscoperegistry.cpp.o
+[537/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssqlstatementparser.cpp.o
+[538/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsanimatedicon.cpp.o
+[539/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsapplication.cpp.o
+[540/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayouteffect.cpp.o
+[541/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemgroupundocommand.cpp.o
+[542/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutexporter.cpp.o
+[543/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/__/__/external/poly2tri/common/shapes.cc.o
+[544/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/__/__/external/poly2tri/sweep/cdt.cc.o
+[545/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/moc_qgsannotationmanager.cpp.o
+[546/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/locator/moc_qgslocator.cpp.o
+[547/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/locator/moc_qgslocatormodel.cpp.o
+[548/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgssettings.cpp.o
+[549/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/moc_qgsauthmanager.cpp.o
+[550/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshlayer.cpp.o
+[551/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsbox3d.cpp.o
+[552/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsattributeeditorelement.cpp.o
+[553/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscachedfeatureiterator.cpp.o
+[554/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsactionscope.cpp.o
+[555/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/__/__/external/poly2tri/sweep/advancing_front.cc.o
+[556/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/parse.c.o
+[557/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/sentence.c.o
+[558/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerexporter.cpp.o
+[559/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayereditutils.cpp.o
+[560/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerlabeling.cpp.o
+[561/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutrendercontext.cpp.o
+[562/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitempage.cpp.o
+[563/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutreportcontext.cpp.o
+[564/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/info.c.o
+[565/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutmanager.cpp.o
+[566/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geocms/geonode/qgsgeonoderequest.cpp.o
+[567/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgsvaluerelationfieldformatter.cpp.o
+[568/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/flex_qgssqlstatementlexer.cpp.o
+[569/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsuserprofilemanager.cpp.o
+[570/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsuserprofile.cpp.o
+[571/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprojectbadlayerhandler.cpp.o
+[572/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspluginlayerregistry.cpp.o
+[573/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspointlocator.cpp.o
+[574/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspluginlayer.cpp.o
+[575/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayerexporter.cpp.o
+[576/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayer.cpp.o
+[577/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorfilewritertask.cpp.o
+[578/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeaturesource.cpp.o
+[579/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsellipsoidutils.cpp.o
+[580/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeature.cpp.o
+[581/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeaturestore.cpp.o
+[582/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgsshadoweffect.cpp.o
+[583/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgstransformeffect.cpp.o
+[584/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/moc_qgsgpsdconnection.cpp.o
+[585/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/moc_qgsabstractgeometry.cpp.o
+[586/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutatlas.cpp.o
+[587/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsregularpolygon.cpp.o
+[588/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgspoint.cpp.o
+[589/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsmulticurve.cpp.o
+[590/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgslinestring.cpp.o
+[591/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsmultipoint.cpp.o
+[592/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutrendercontext.cpp.o
+[593/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutserializableobject.cpp.o
+[594/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayouttablecolumn.cpp.o
+[595/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutobject.cpp.o
+[596/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutpagecollection.cpp.o
+[597/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerjoinbuffer.cpp.o
+[598/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayereditbuffer.cpp.o
+[599/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerutils.cpp.o
+[600/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerdiagramprovider.cpp.o
+[601/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/moc_qgsauthmethod.cpp.o
+[602/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayereditpassthrough.cpp.o
+[603/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/moc_qgshtmlannotation.cpp.o
+[604/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscolorschemeregistry.cpp.o
+[605/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscolorramp.cpp.o
+[606/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscolorscheme.cpp.o
+[607/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscadutils.cpp.o
+[608/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgscategorizedsymbolrenderer.cpp.o
+[609/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgscptcityarchive.cpp.o
+[610/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/dxf/qgsdxfpallabeling.cpp.o
+[611/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayout.cpp.o
+[612/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/dxf/qgsdxfpaintengine.cpp.o
+[613/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgscoloreffect.cpp.o
+[614/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgspainteffectregistry.cpp.o
+[615/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/diagram/qgsdiagram.cpp.o
+[616/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/diagram/qgspiediagram.cpp.o
+[617/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasteridentifyresult.cpp.o
+[618/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterlayer.cpp.o
+[619/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterdataprovider.cpp.o
+[620/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsgeometrygeneratorsymbollayer.cpp.o
+[621/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsgraduatedsymbolrenderer.cpp.o
+[622/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsheatmaprenderer.cpp.o
+[623/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgspointdisplacementrenderer.cpp.o
+[624/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgshuesaturationfilter.cpp.o
+[625/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterrange.cpp.o
+[626/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsbrightnesscontrastfilter.cpp.o
+[627/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgsprintlayout.cpp.o
+[628/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/moc_qgssvgcache.cpp.o
+[629/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutmultiframe.cpp.o
+[630/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutpagecollection.cpp.o
+[631/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/costcalculator.cpp.o
+[632/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/layer.cpp.o
+[633/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/geomfunction.cpp.o
+[634/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutpoint.cpp.o
+[635/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgsprintlayout.cpp.o
+[636/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgscurve.cpp.o
+[637/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutundostack.cpp.o
+[638/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutatlas.cpp.o
+[639/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemattributetable.cpp.o
+[640/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemhtml.cpp.o
+[641/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutguidecollection.cpp.o
+[642/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsstatisticalsummary.cpp.o
+[643/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstaskmanager.cpp.o
+[644/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssqlstatement.cpp.o
+[645/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsstringstatisticalsummary.cpp.o
+[646/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsspatialindexkdbush.cpp.o
+[647/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemhtml.cpp.o
+[648/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemgroupundocommand.cpp.o
+[649/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemlegend.cpp.o
+[650/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemmapitem.cpp.o
+[651/4555] Building CXX object src/crssync/CMakeFiles/crssync.dir/main.cpp.o
+[652/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/scalebar/qgssingleboxscalebarrenderer.cpp.o
+[653/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsaction.cpp.o
+[654/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/pointset.cpp.o
+[655/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdbfilterproxymodel.cpp.o
+[656/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/labelposition.cpp.o
+[657/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdistancearea.cpp.o
+[658/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdiagramrenderer.cpp.o
+[659/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgseditformconfig.cpp.o
+[660/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdatadefinedsizelegend.cpp.o
+[661/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdataitemproviderregistry.cpp.o
+[662/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdatasourceuri.cpp.o
+[663/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdatumtransform.cpp.o
+[664/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsgeometryfixes.cpp.o
+[665/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdataitem.cpp.o
+[666/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgshtmlutils.cpp.o
+[667/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdataitemprovider.cpp.o
+[668/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscoordinatetransform.cpp.o
+[669/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgssinglebandgrayrenderer.cpp.o
+[670/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterresamplefilter.cpp.o
+[671/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterdrawer.cpp.o
+[672/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgshillshaderenderer.cpp.o
+[673/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaplayerproxymodel.cpp.o
+[674/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgslinesymbollayer.cpp.o
+[675/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaplayerstore.cpp.o
+[676/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaprenderertask.cpp.o
+[677/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaprenderersequentialjob.cpp.o
+[678/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaplayerstylemanager.cpp.o
+[679/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaprenderercustompainterjob.cpp.o
+[680/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaplayermodel.cpp.o
+[681/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayouttable.cpp.o
+[682/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutreportcontext.cpp.o
+[683/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutsize.cpp.o
+[684/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaplayer.cpp.o
+[685/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaprendererjob.cpp.o
+[686/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaprendererparalleljob.cpp.o
+[687/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemshape.cpp.o
+[688/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/palstat.cpp.o
+[689/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitempolygon.cpp.o
+[690/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgscontrastenhancementfunction.cpp.o
+[691/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgslinearminmaxenhancementwithclip.cpp.o
+[692/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfield.cpp.o
+[693/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeaturefiltermodel.cpp.o
+[694/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfieldmodel.cpp.o
+[695/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeatureiterator.cpp.o
+[696/4555] Building C object src/core/CMakeFiles/qgis_core.dir/__/__/external/nmea/time.c.o
+[697/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfontutils.cpp.o
+[698/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/providers/memory/moc_qgsmemoryprovider.cpp.o
+[699/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/moc_qgsprocessingfeedback.cpp.o
+[700/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/moc_qgsprocessingprovider.cpp.o
+[701/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsarrowsymbollayer.cpp.o
+[702/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgslinesegment.cpp.o
+[703/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsmultisurface.cpp.o
+[704/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsmultipolygon.cpp.o
+[705/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeometryutils.cpp.o
+[706/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgswkbtypes.cpp.o
+[707/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgspolygon.cpp.o
+[708/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscacheindex.cpp.o
+[709/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaprendererparalleljob.cpp.o
+[710/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaprenderertask.cpp.o
+[711/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaprenderersequentialjob.cpp.o
+[712/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmapsettings.cpp.o
+[713/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterrenderer.cpp.o
+[714/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgssinglebandpseudocolorrenderer.cpp.o
+[715/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/qgsgpsconnectionregistry.cpp.o
+[716/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterfilewriter.cpp.o
+[717/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/__/__/external/poly2tri/sweep/sweep.cc.o
+[718/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/__/__/external/poly2tri/sweep/sweep_context.cc.o
+[719/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgscolorbrewerpalette.cpp.o
+[720/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/qgsgpsconnection.cpp.o
+[721/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingfeedback.cpp.o
+[722/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsgmlschema.cpp.o
+[723/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingparameters.cpp.o
+[724/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslabelingenginesettings.cpp.o
+[725/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmapthemecollection.cpp.o
+[726/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayereditbuffer.cpp.o
+[727/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayerjoinbuffer.cpp.o
+[728/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayertools.cpp.o
+[729/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfieldformatter.cpp.o
+[730/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfieldconstraints.cpp.o
+[731/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/priorityqueue.cpp.o
+[732/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeaturerequest.cpp.o
+[733/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutmeasurement.cpp.o
+[734/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaprenderercache.cpp.o
+[735/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemundocommand.cpp.o
+[736/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreemodel.cpp.o
+[737/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreenode.cpp.o
+[738/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/moc_qgstextannotation.cpp.o
+[739/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/locator/moc_qgslocatorfilter.cpp.o
+[740/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/moc_qgssvgannotation.cpp.o
+[741/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsanimatedicon.cpp.o
+[742/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitempolygon.cpp.o
+[743/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitempolyline.cpp.o
+[744/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemmapoverview.cpp.o
+[745/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemnodeitem.cpp.o
+[746/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemmapgrid.cpp.o
+[747/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemmap.cpp.o
+[748/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshmemorydataprovider.cpp.o
+[749/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshlayerutils.cpp.o
+[750/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshlayerrenderer.cpp.o
+[751/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgstriangularmesh.cpp.o
+[752/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshlayerinterpolator.cpp.o
+[753/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshvectorrenderer.cpp.o
+[754/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/locator/qgslocator.cpp.o
+[755/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/expression/qgsexpressionutils.cpp.o
+[756/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/expression/qgsexpressionnodeimpl.cpp.o
+[757/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/locator/qgslocatorfilter.cpp.o
+[758/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingalgrunnertask.cpp.o
+[759/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/qgssvgannotation.cpp.o
+[760/4555] Building CXX object src/python/CMakeFiles/qgispython.dir/qgspythonutilsimpl.cpp.o
+[761/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertree.cpp.o
+[762/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertreenode.cpp.o
+[763/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertreemodellegendnode.cpp.o
+[764/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutmanager.cpp.o
+[765/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutmodel.cpp.o
+[766/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutmultiframe.cpp.o
+[767/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemscalebar.cpp.o
+[768/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerfeaturecounter.cpp.o
+[769/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstransactiongroup.cpp.o
+[770/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvector3d.cpp.o
+[771/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdatetimestatisticalsummary.cpp.o
+[772/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsexpressionfieldbuffer.cpp.o
+[773/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsexpressioncontext.cpp.o
+[774/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitempicture.cpp.o
+[775/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitempage.cpp.o
+[776/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsunittypes.cpp.o
+[777/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstracer.cpp.o
+[778/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvector.cpp.o
+[779/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmessageoutput.cpp.o
+[780/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsnetworkcontentfetcherregistry.cpp.o
+[781/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmessagelog.cpp.o
+[782/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscoordinatetransform_p.cpp.o
+[783/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsnetworkcontentfetchertask.cpp.o
+[784/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdataprovider.cpp.o
+[785/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscoordinatetransformcontext.cpp.o
+[786/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayer.cpp.o
+[787/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorfilewriter.cpp.o
+[788/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/qgshtmlannotation.cpp.o
+[789/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/qgstextannotation.cpp.o
+[790/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsinterval.cpp.o
+[791/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/expression/qgsexpression.cpp.o
+[792/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsjsonutils.cpp.o
+[793/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslabelsearchtree.cpp.o
+[794/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutundocommand.cpp.o
+[795/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertreegroup.cpp.o
+[796/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutmultiframeundocommand.cpp.o
+[797/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/moc_qgsqtlocationconnection.cpp.o
+[798/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvirtuallayerdefinition.cpp.o
+[799/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorsimplifymethod.cpp.o
+[800/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/dxf/qgsdxfpaintdevice.cpp.o
+[801/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssettings.cpp.o
+[802/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvirtuallayerdefinitionutils.cpp.o
+[803/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstestutils.cpp.o
+[804/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgsreport.cpp.o
+[805/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/moc_qgsstyle.cpp.o
+[806/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/moc_qgscptcityarchive.cpp.o
+[807/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayouttable.cpp.o
+[808/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayouttablecolumn.cpp.o
+[809/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspathresolver.cpp.o
+[810/4555] Building CXX object src/python/CMakeFiles/qgispython.dir/qgispython.cpp.o
+[811/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrastershader.cpp.o
+[812/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterprojector.cpp.o
+[813/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrastertransparency.cpp.o
+[814/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterpipe.cpp.o
+[815/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayerstyle.cpp.o
+[816/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaprenderercache.cpp.o
+[817/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayerstore.cpp.o
+[818/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayerproxymodel.cpp.o
+[819/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemregistry.cpp.o
+[820/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemtexttable.cpp.o
+[821/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutmodel.cpp.o
+[822/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectordataprovider.cpp.o
+[823/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstrackedvectorlayertools.cpp.o
+[824/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorfilewritertask.cpp.o
+[825/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspythonrunner.cpp.o
+[826/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvirtuallayertask.cpp.o
+[827/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprojectversion.cpp.o
+[828/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsproviderregistry.cpp.o
+[829/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspropertycollection.cpp.o
+[830/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsogrutils.cpp.o
+[831/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsowsconnection.cpp.o
+[832/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsnetworkreplyparser.cpp.o
+[833/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsobjectcustomproperties.cpp.o
+[834/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspallabeling.cpp.o
+[835/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstolerance.cpp.o
+[836/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsstringutils.cpp.o
+[837/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstransaction.cpp.o
+[838/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstextrenderer.cpp.o
+[839/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreelayer.cpp.o
+[840/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreeutils.cpp.o
+[841/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertree.cpp.o
+[842/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgs25drenderer.cpp.o
+[843/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/qgsgpsdetector.cpp.o
+[844/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsfillsymbollayer.cpp.o
+[845/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslegendstyle.cpp.o
+[846/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsellipsesymbollayer.cpp.o
+[847/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmapdecoration.cpp.o
+[848/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaphittest.cpp.o
+[849/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/locator/qgslocatormodel.cpp.o
+[850/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/expression/qgsexpressionnode.cpp.o
+[851/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/qgsannotationmanager.cpp.o
+[852/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorsimplifymethod.cpp.o
+[853/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgswebview.cpp.o
+[854/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/annotations/moc_qgsannotation.cpp.o
+[855/4555] Building CXX object python/CMakeFiles/python_module_qgis__core.dir/core/sip_corepart2.cpp.o
+[856/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeometry.cpp.o
+[857/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsinternalgeometryengine.cpp.o
+[858/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutguidecollection.cpp.o
+[859/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutframe.cpp.o
+[860/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/moc_qgsgpsdetector.cpp.o
+[861/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsnetworkaccessmanager.cpp.o
+[862/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayout.cpp.o
+[863/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsnetworkreplyparser.cpp.o
+[864/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsofflineediting.cpp.o
+[865/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/qgsauthmethodmetadata.cpp.o
+[866/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/qgsauthconfig.cpp.o
+[867/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/metadata/qgslayermetadataformatter.cpp.o
+[868/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/moc_qgsrasterinterface.cpp.o
+[869/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/3d/qgs3drendererregistry.cpp.o
+[870/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/moc_qgsprocessingregistry.cpp.o
+[871/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgstriangle.cpp.o
+[872/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsnetworkcontentfetcher.cpp.o
+[873/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsogcutils.cpp.o
+[874/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmargins.cpp.o
+[875/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsnetworkcontentfetchertask.cpp.o
+[876/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaprendererjob.cpp.o
+[877/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaprenderercustompainterjob.cpp.o
+[878/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaptopixelgeometrysimplifier.cpp.o
+[879/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmapunitscale.cpp.o
+[880/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmessagelog.cpp.o
+[881/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaptopixel.cpp.o
+[882/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsnetworkdiskcache.cpp.o
+[883/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeometrymakevalid.cpp.o
+[884/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeos.cpp.o
+[885/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutgridsettings.cpp.o
+[886/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgsabstractreportsection.cpp.o
+[887/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemgroup.cpp.o
+[888/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutaligner.cpp.o
+[889/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspointxy.cpp.o
+[890/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutframe.cpp.o
+[891/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsoptionalexpression.cpp.o
+[892/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspainting.cpp.o
+[893/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspaintenginehack.cpp.o
+[894/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfields.cpp.o
+[895/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsproject.cpp.o
+[896/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsgeometrysimplifier.cpp.o
+[897/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsscalecalculator.cpp.o
+[898/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsrulebasedlabeling.cpp.o
+[899/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsspatialindex.cpp.o
+[900/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssnappingutils.cpp.o
+[901/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssqliteexpressioncompiler.cpp.o
+[902/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsrelationmanager.cpp.o
+[903/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemmapoverview.cpp.o
+[904/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemmapitem.cpp.o
+[905/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgspagesizeregistry.cpp.o
+[906/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemmap.cpp.o
+[907/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoututils.cpp.o
+[908/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsnetworkcontentfetcherregistry.cpp.o
+[909/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsnetworkaccessmanager.cpp.o
+[910/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmimedatautils.cpp.o
+[911/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmultirenderchecker.cpp.o
+[912/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsofflineediting.cpp.o
+[913/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/scalebar/qgsdoubleboxscalebarrenderer.cpp.o
+[914/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgis.cpp.o
+[915/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsactionscoperegistry.cpp.o
+[916/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/scalebar/qgsticksscalebarrenderer.cpp.o
+[917/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsapplication.cpp.o
+[918/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/scalebar/qgsnumericscalebarrenderer.cpp.o
+[919/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayercache.cpp.o
+[920/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterchecker.cpp.o
+[921/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterfilewritertask.cpp.o
+[922/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterinterface.cpp.o
+[923/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasternuller.cpp.o
+[924/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/simplify/effectivearea.cpp.o
+[925/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgssymbol.cpp.o
+[926/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgssvgcache.cpp.o
+[927/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgssymbollayer.cpp.o
+[928/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgscoordinatereferencesystem.cpp.o
+[929/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/qgsqtlocationconnection.cpp.o
+[930/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/flex_qgsexpressionlexer.cpp.o
+[931/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutmeasurementconverter.cpp.o
+[932/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslayerdefinition.cpp.o
+[933/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayer.cpp.o
+[934/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprojectproperty.cpp.o
+[935/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssnappingconfig.cpp.o
+[936/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsproperty.cpp.o
+[937/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsproxyprogresstask.cpp.o
+[938/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsexpressionparser.cpp.o
+[939/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgspropertytransformer.cpp.o
+[940/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsbrowsermodel.cpp.o
+[941/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgscolorrampshader.cpp.o
+[942/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgswkbptr.cpp.o
+[943/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgsrangefieldformatter.cpp.o
+[944/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsrectangle.cpp.o
+[945/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsreferencedgeometry.cpp.o
+[946/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsrelationmanager.cpp.o
+[947/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsproxyprogresstask.cpp.o
+[948/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsowsconnection.cpp.o
+[949/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsproject.cpp.o
+[950/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgstaskmanager.cpp.o
+[951/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeometrycollection.cpp.o
+[952/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeometryfactory.cpp.o
+[953/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsgeometryeditutils.cpp.o
+[954/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/moc_qgsrasterfilewritertask.cpp.o
+[955/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslogger.cpp.o
+[956/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslocalec.cpp.o
+[957/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayermodel.cpp.o
+[958/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutsnapper.cpp.o
+[959/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgssymbollayerutils.cpp.o
+[960/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/diagram/qgstextdiagram.cpp.o
+[961/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgscubicrasterresampler.cpp.o
+[962/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstextlabelfeature.cpp.o
+[963/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstessellator.cpp.o
+[964/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgstranslationcontext.cpp.o
+[965/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsspatialiteutils.cpp.o
+[966/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssqliteutils.cpp.o
+[967/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgskeyvaluefieldformatter.cpp.o
+[968/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgsrelationreferencefieldformatter.cpp.o
+[969/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsexpression_texts.cpp.o
+[970/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsdataprovider.cpp.o
+[971/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsactionmanager.cpp.o
+[972/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgscredentials.cpp.o
+[973/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsdataitem.cpp.o
+[974/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsdbfilterproxymodel.cpp.o
+[975/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgspainteffect.cpp.o
+[976/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreegroup.cpp.o
+[977/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreeregistrybridge.cpp.o
+[978/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/qgslayertreemodellegendnode.cpp.o
+[979/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/dxf/qgsdxfexport.cpp.o
+[980/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsarchive.cpp.o
+[981/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsmultilinestring.cpp.o
+[982/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerundopassthroughcommand.cpp.o
+[983/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsattributetableconfig.cpp.o
+[984/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsauxiliarystorage.cpp.o
+[985/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsbrowsermodel.cpp.o
+[986/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscacheindexfeatureid.cpp.o
+[987/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsactionmanager.cpp.o
+[988/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsaggregatecalculator.cpp.o
+[989/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingprovider.cpp.o
+[990/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingutils.cpp.o
+[991/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitem.cpp.o
+[992/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayouteffect.cpp.o
+[993/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemlabel.cpp.o
+[994/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsstyle.cpp.o
+[995/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgspointclusterrenderer.cpp.o
+[996/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgssymbollayerregistry.cpp.o
+[997/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgssnappingconfig.cpp.o
+[998/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsrulebasedrenderer.cpp.o
+[999/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsreadwritecontext.cpp.o
+[1000/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsrenderchecker.cpp.o
+[1001/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsscaleutils.cpp.o
+[1002/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsrelation.cpp.o
+[1003/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssimplifymethod.cpp.o
+[1004/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgscompositionconverter.cpp.o
+[1005/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgsreportsectionlayout.cpp.o
+[1006/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgsreportsectionfieldgroup.cpp.o
+[1007/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/feature.cpp.o
+[1008/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgsreport.cpp.o
+[1009/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmapsettingsutils.cpp.o
+[1010/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfieldproxymodel.cpp.o
+[1011/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfieldformatterregistry.cpp.o
+[1012/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsgmlschema.cpp.o
+[1013/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsgml.cpp.o
+[1014/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfeaturefiltermodel_p.cpp.o
+[1015/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsmaplayerlegend.cpp.o
+[1016/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfeedback.cpp.o
+[1017/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfield.cpp.o
+[1018/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsgeometryvalidator.cpp.o
+[1019/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgsimageoperation.cpp.o
+[1020/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/diagram/qgshistogramdiagram.cpp.o
+[1021/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgseffectstack.cpp.o
+[1022/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfieldconstraints.cpp.o
+[1023/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfiledownloader.cpp.o
+[1024/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfieldmodel.cpp.o
+[1025/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfeature.cpp.o
+[1026/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsfeaturefiltermodel.cpp.o
+[1027/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertreemodel.cpp.o
+[1028/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertreelayer.cpp.o
+[1029/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgssinglebandcolordatarenderer.cpp.o
+[1030/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/qgsmeshdataprovider.cpp.o
+[1031/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsraster.cpp.o
+[1032/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/problem.cpp.o
+[1033/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterblock.cpp.o
+[1034/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgscliptominmaxenhancement.cpp.o
+[1035/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgscontrastenhancement.cpp.o
+[1036/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/pal.cpp.o
+[1037/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgslinearminmaxenhancement.cpp.o
+[1038/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmessageoutput.cpp.o
+[1039/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/pal/util.cpp.o
+[1040/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/moc_qgsrasterprojector.cpp.o
+[1041/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/moc_qgsrasterlayer.cpp.o
+[1042/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/moc_qgsprocessingalgrunnertask.cpp.o
+[1043/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/moc_qgsrasterdataprovider.cpp.o
+[1044/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/models/qgsprocessingmodelcomponent.cpp.o
+[1045/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterlayerrenderer.cpp.o
+[1046/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/providers/memory/qgsmemoryprovider.cpp.o
+[1047/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/models/qgsprocessingmodelalgorithm.cpp.o
+[1048/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/models/qgsprocessingmodelparameter.cpp.o
+[1049/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayereditpassthrough.cpp.o
+[1050/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/providers/memory/qgsmemoryproviderutils.cpp.o
+[1051/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgstransaction.cpp.o
+[1052/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayercache.cpp.o
+[1053/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectordataprovider.cpp.o
+[1054/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsattributes.cpp.o
+[1055/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsbearingutils.cpp.o
+[1056/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgssqlexpressioncompiler.cpp.o
+[1057/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/models/qgsprocessingmodelchildparametersource.cpp.o
+[1058/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsxmlutils.cpp.o
+[1059/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/providers/memory/qgsmemoryfeatureiterator.cpp.o
+[1060/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/scalebar/qgsscalebarrenderer.cpp.o
+[1061/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsdefaultvalue.cpp.o
+[1062/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfeaturesink.cpp.o
+[1063/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgserror.cpp.o
+[1064/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsclipper.cpp.o
+[1065/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgscoordinatereferencesystem.cpp.o
+[1066/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsconditionalstyle.cpp.o
+[1067/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfieldformatterregistry.cpp.o
+[1068/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfiledownloader.cpp.o
+[1069/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfieldproxymodel.cpp.o
+[1070/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsfileutils.cpp.o
+[1071/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemtexttable.cpp.o
+[1072/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemregistry.cpp.o
+[1073/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemshape.cpp.o
+[1074/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemnodeitem.cpp.o
+[1075/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitemmapgrid.cpp.o
+[1076/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/qgslayoutitem.cpp.o
+[1077/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/mesh/moc_qgsmeshdataprovider.cpp.o
+[1078/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/moc_qgsrasterlayerrenderer.cpp.o
+[1079/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsuserprofilemanager.cpp.o
+[1080/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layertree/moc_qgslayertreeregistrybridge.cpp.o
+[1081/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/models/qgsprocessingmodelchildalgorithm.cpp.o
+[1082/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/models/qgsprocessingmodeloutput.cpp.o
+[1083/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgscompoundcurve.cpp.o
+[1084/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsellipse.cpp.o
+[1085/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgsabstractgeometry.cpp.o
+[1086/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgscurvepolygon.cpp.o
+[1087/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/metadata/qgsprojectmetadata.cpp.o
+[1088/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/metadata/qgsabstractmetadatabase.cpp.o
+[1089/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprovidermetadata.cpp.o
+[1090/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprojectstorage.cpp.o
+[1091/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsnetworkdiskcache.cpp.o
+[1092/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprojectfiletransform.cpp.o
+[1093/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsnetworkcontentfetcher.cpp.o
+[1094/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgspointxy.cpp.o
+[1095/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgspointlocator.cpp.o
+[1096/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayerlegend.cpp.o
+[1097/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslegendsettings.cpp.o
+[1098/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsmaplayerstylemanager.cpp.o
+[1099/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslegendrenderer.cpp.o
+[1100/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemattributetable.cpp.o
+[1101/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemgroup.cpp.o
+[1102/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/moc_qgspoint.cpp.o
+[1103/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgsblureffect.cpp.o
+[1104/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/effects/qgsgloweffect.cpp.o
+[1105/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsvectorfieldsymbollayer.cpp.o
+[1106/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsruntimeprofiler.cpp.o
+[1107/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsrunprocess.cpp.o
+[1108/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsrunprocess.cpp.o
+[1109/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgssnappingutils.cpp.o
+[1110/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgspluginlayer.cpp.o
+[1111/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/3d/qgsabstract3drenderer.cpp.o
+[1112/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgsfallbackfieldformatter.cpp.o
+[1113/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgsdatetimefieldformatter.cpp.o
+[1114/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/geometry/qgssurface.cpp.o
+[1115/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/fieldformatter/qgslistfieldformatter.cpp.o
+[1116/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/qgsauthcertutils.cpp.o
+[1117/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/qgsauthmanager.cpp.o
+[1118/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsrendercontext.cpp.o
+[1119/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgspalettedrasterrenderer.cpp.o
+[1120/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayerrenderer.cpp.o
+[1121/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/raster/qgsrasterrendererregistry.cpp.o
+[1122/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgswebpage.cpp.o
+[1123/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvectorlayerfeaturecounter.cpp.o
+[1124/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsunittypes.cpp.o
+[1125/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/processing/qgsprocessingoutputs.cpp.o
+[1126/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/moc_qgsvirtuallayertask.cpp.o
+[1127/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/qgsnmeaconnection.cpp.o
+[1128/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/gps/qgsgpsdconnection.cpp.o
+[1129/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsziputils.cpp.o
+[1130/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerjoininfo.cpp.o
+[1131/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsvectorlayerfeatureiterator.cpp.o
+[1132/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsgeometryvalidator.cpp.o
+[1133/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgshistogram.cpp.o
+[1134/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsgml.cpp.o
+[1135/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslabelingengine.cpp.o
+[1136/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgslabelfeature.cpp.o
+[1137/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsrendererregistry.cpp.o
+[1138/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgsrenderer.cpp.o
+[1139/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgspointdistancerenderer.cpp.o
+[1140/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/symbology/qgssinglesymbolrenderer.cpp.o
+[1141/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/metadata/qgslayermetadatavalidator.cpp.o
+[1142/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/auth/qgsauthmethodregistry.cpp.o
+[1143/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/qgsprojectstorageregistry.cpp.o
+[1144/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/metadata/qgslayermetadata.cpp.o
+[1145/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutobject.cpp.o
+[1146/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutundostack.cpp.o
+[1147/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitemscalebar.cpp.o
+[1148/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitempolyline.cpp.o
+[1149/4555] Building CXX object src/core/CMakeFiles/qgis_core.dir/layout/moc_qgslayoutitempicture.cpp.o
+[1150/4555] Linking CXX shared library output/lib/libqgis_core.so.3.3
+[1151/4555] Creating library symlink output/lib/libqgis_core.so
+[1152/4555] Generating auth/moc_qgsauthidentitieseditor.cpp
+[1153/4555] Generating attributetable/moc_qgsvectorlayerselectionmanager.cpp
+[1154/4555] Generating auth/moc_qgsauthcerttrustpolicycombobox.cpp
+[1155/4555] Generating auth/moc_qgsauthmethodedit.cpp
+[1156/4555] Generating auth/moc_qgsauthcertificateinfo.cpp
+[1157/4555] Generating moc_qgspropertyoverridebutton.cpp
+[1158/4555] Generating moc_qgspluginmanagerinterface.cpp
+[1159/4555] Generating moc_qgsoptionsdialogbase.cpp
+[1160/4555] Generating moc_qgsprojectionselectiondialog.cpp
+[1161/4555] Generating moc_qgsowssourceselect.cpp
+[1162/4555] Generating moc_qgsnewgeopackagelayerdialog.cpp
+[1163/4555] Generating moc_qgsorderbydialog.cpp
+[1164/4555] Generating moc_qgsopacitywidget.cpp
+[1165/4555] Generating moc_qgspropertyassistantwidget.cpp
+[1166/4555] Generating network/moc_qgsgraphdirector.cpp
+[1167/4555] Generating processing/moc_qgsnativealgorithms.cpp
+[1168/4555] Generating moc_qgsmanageconnectionsdialog.cpp
+[1169/4555] Generating moc_qgsmaptoolpan.cpp
+[1170/4555] Generating moc_qgsmapoverviewcanvas.cpp
+[1171/4555] Generating moc_qgsmaptoolcapture.cpp
+[1172/4555] Generating moc_qgsabstractdatasourcewidget.cpp
+[1173/4555] Generating moc_qgstextpreview.cpp
+[1174/4555] Generating raster/moc_qgscolorrampshaderwidget.cpp
+[1175/4555] Generating moc_qgstablewidgetbase.cpp
+[1176/4555] Generating raster/moc_qgsmultibandcolorrendererwidget.cpp
+[1177/4555] Generating moc_qgsvariableeditorwidget.cpp
+[1178/4555] Generating moc_qgstabwidget.cpp
+[1179/4555] Generating moc_qgsmessagebaritem.cpp
+[1180/4555] Generating moc_qgsmaplayerconfigwidget.cpp
+[1181/4555] Generating moc_qgsmaptooledit.cpp
+[1182/4555] Generating moc_qgsmaptoolidentifyfeature.cpp
+[1183/4555] Generating moc_qgsmetadatawidget.cpp
+[1184/4555] Generating moc_qgsmessagebar.cpp
+[1185/4555] Generating moc_qgsmaptoolidentify.cpp
+[1186/4555] Generating moc_qgsmaptoolemitpoint.cpp
+[1187/4555] Generating editorwidgets/moc_qgsexternalresourceconfigdlg.cpp
+[1188/4555] Generating editorwidgets/moc_qgsdatetimeedit.cpp
+[1189/4555] Generating editorwidgets/moc_qgshiddenwidgetwrapper.cpp
+[1190/4555] Generating editorwidgets/moc_qgsenumerationwidgetwrapper.cpp
+[1191/4555] Generating editorwidgets/moc_qgsrelationwidgetwrapper.cpp
+[1192/4555] Generating editorwidgets/moc_qgsdatetimeeditconfig.cpp
+[1193/4555] Generating moc_qgscodeeditorhtml.cpp
+[1194/4555] Generating moc_qgscollapsiblegroupbox.cpp
+[1195/4555] Generating moc_qgscodeeditor.cpp
+[1196/4555] Generating moc_qgscolorswatchgrid.cpp
+[1197/4555] Generating moc_qgscolorbutton.cpp
+[1198/4555] Generating moc_qgsadvanceddigitizingdockwidget.cpp
+[1199/4555] Generating moc_qgsattributedialog.cpp
+[1200/4555] Generating moc_qgscheckablecombobox.cpp
+[1201/4555] Generating moc_qgspresetcolorrampdialog.cpp
+[1202/4555] Generating moc_qgsprojectionselectiontreewidget.cpp
+[1203/4555] Generating moc_qgspanelwidgetstack.cpp
+[1204/4555] Generating moc_qgspanelwidget.cpp
+[1205/4555] Generating moc_qgsprevieweffect.cpp
+[1206/4555] Generating moc_qgsrasterformatsaveoptionswidget.cpp
+[1207/4555] Generating moc_qgspixmaplabel.cpp
+[1208/4555] Generating moc_qgsprojectionselectionwidget.cpp
+[1209/4555] Generating layout/moc_qgslayoutitemwidget.cpp
+[1210/4555] Generating layout/moc_qgslayoutmousehandles.cpp
+[1211/4555] Generating layout/moc_qgslayoutviewtooltemporarykeyzoom.cpp
+[1212/4555] Generating layout/moc_qgslayoutnewitempropertiesdialog.cpp
+[1213/4555] Generating layout/moc_qgslayoutviewtoolzoom.cpp
+[1214/4555] Generating processing/moc_qgsprocessingtoolboxtreeview.cpp
+[1215/4555] Generating layout/moc_qgslayoutviewtooladdnodeitem.cpp
+[1216/4555] Generating processing/moc_qgsprocessingalgorithmconfigurationwidget.cpp
+[1217/4555] Generating layout/moc_qgslayoutviewtooltemporarymousepan.cpp
+[1218/4555] Generating layout/moc_qgslayoutviewrubberband.cpp
+[1219/4555] Generating layout/moc_qgslayoutruler.cpp
+[1220/4555] Generating layout/moc_qgslayoutunitscombobox.cpp
+[1221/4555] Generating layout/moc_qgslayoutitemcombobox.cpp
+[1222/4555] Generating layout/moc_qgslayoutviewtooladditem.cpp
+[1223/4555] Generating processing/moc_qgsprocessingwidgetwrapperimpl.cpp
+[1224/4555] Generating locator/moc_qgslocatorwidget.cpp
+[1225/4555] Generating layout/moc_qgslayoutviewtool.cpp
+[1226/4555] Generating layout/moc_qgslayoutviewtoolpan.cpp
+[1227/4555] Generating editorwidgets/moc_qgsuuidwidgetwrapper.cpp
+[1228/4555] Generating layertree/moc_qgslayertreeembeddedwidgetsimpl.cpp
+[1229/4555] Generating editorwidgets/moc_qgsvaluemapconfigdlg.cpp
+[1230/4555] Generating editorwidgets/moc_qgsvaluerelationconfigdlg.cpp
+[1231/4555] Generating layertree/moc_qgscustomlayerorderwidget.cpp
+[1232/4555] Generating symbology/moc_qgsnullsymbolrendererwidget.cpp
+[1233/4555] Generating symbology/moc_qgsstylesavedialog.cpp
+[1234/4555] Generating symbology/moc_qgspenstylecombobox.cpp
+[1235/4555] Generating symbology/moc_qgsstyleexportimportdialog.cpp
+[1236/4555] Generating symbology/moc_qgssvgselectorwidget.cpp
+[1237/4555] Generating moc_qgsunitselectionwidget.cpp
+[1238/4555] Generating raster/moc_qgsrasterminmaxwidget.cpp
+[1239/4555] Generating moc_qgssearchquerybuilder.cpp
+[1240/4555] Generating moc_qgstreewidgetitem.cpp
+[1241/4555] Generating ogr/moc_qgsnewogrconnection.cpp
+[1242/4555] Generating raster/moc_qgspalettedrendererwidget.cpp
+[1243/4555] Generating moc_qgsuserinputwidget.cpp
+[1244/4555] Generating moc_qgswidgetstatehelper_p.cpp
+[1245/4555] Generating flex_qgsrastercalclexer.cpp
+[1246/4555] Generating moc_qgsnewhttpconnection.cpp
+[1247/4555] Generating moc_qgsnewauxiliarylayerdialog.cpp
+[1248/4555] Generating moc_qgsmessageviewer.cpp
+[1249/4555] Generating moc_qgsoptionsdialoghighlightwidget.cpp
+[1250/4555] Generating moc_qgspasswordlineedit.cpp
+[1251/4555] Generating moc_qgsnewvectorlayerdialog.cpp
+[1252/4555] Generating editorwidgets/moc_qgsuniquevaluewidgetwrapper.cpp
+[1253/4555] Generating editorwidgets/moc_qgstexteditsearchwidgetwrapper.cpp
+[1254/4555] Generating editorwidgets/moc_qgsrelationreferencewidget.cpp
+[1255/4555] Generating editorwidgets/moc_qgsrelationreferencewidgetwrapper.cpp
+[1256/4555] Generating editorwidgets/moc_qgssearchwidgettoolbutton.cpp
+[1257/4555] Generating moc_qgsattributeformwidget.cpp
+[1258/4555] Generating moc_qgsbrowsertreeview.cpp
+[1259/4555] Generating moc_qgsbusyindicatordialog.cpp
+[1260/4555] Generating moc_qgsattributeformeditorwidget.cpp
+[1261/4555] Generating moc_qgsattributetypeloaddialog.cpp
+[1262/4555] Generating moc_qgsattributeform.cpp
+[1263/4555] Generating attributetable/moc_qgsattributetableview.cpp
+[1264/4555] Generating attributetable/moc_qgsattributetabledelegate.cpp
+[1265/4555] Generating attributetable/moc_qgsattributetablefiltermodel.cpp
+[1266/4555] Generating symbology/moc_qgsrendererwidget.cpp
+[1267/4555] Generating symbology/moc_qgssymbolselectordialog.cpp
+[1268/4555] Generating moc_qgsbench.cpp
+[1269/4555] Generating ogr/moc_qgsvectorlayersaveasdialog.cpp
+[1270/4555] Generating symbology/moc_qgs25drendererwidget.cpp
+[1271/4555] Generating moc_qgsfiledownloaderdialog.cpp
+[1272/4555] Generating symbology/moc_characterwidget.cpp
+[1273/4555] Generating raster/moc_qgsrasterhistogramwidget.cpp
+[1274/4555] Generating network/moc_qgsvectorlayerdirector.cpp
+[1275/4555] Generating editorwidgets/core/moc_qgseditorwidgetregistry.cpp
+[1276/4555] Generating auth/moc_qgsauthsslimportdialog.cpp
+[1277/4555] Generating effects/moc_qgseffectstackpropertieswidget.cpp
+[1278/4555] Generating editorwidgets/moc_qgscheckboxwidgetwrapper.cpp
+[1279/4555] Generating editorwidgets/core/moc_qgseditorconfigwidget.cpp
+[1280/4555] Generating editorwidgets/moc_qgscheckboxsearchwidgetwrapper.cpp
+[1281/4555] Generating auth/moc_qgsauthsslerrorsdialog.cpp
+[1282/4555] Generating moc_qgsattributeformrelationeditorwidget.cpp
+[1283/4555] Generating moc_qgscolordialog.cpp
+[1284/4555] Generating moc_qgscodeeditorpython.cpp
+[1285/4555] Generating moc_qgisinterface.cpp
+[1286/4555] Linking CXX shared module output/python/qgis/_core.so
+[1287/4555] Linking CXX executable output/bin/crssync
+/usr/local/lib/libQt5Core.so.2.2: warning: rand_r() is not random, it is deterministic.
+/usr/local/lib/libgdal.so.32.0: warning: rand() may return deterministic values, is that what you want?
+/usr/local/lib/libproj.so.9.0: warning: strcpy() is almost always misused, please use strlcpy()
+/usr/local/lib/libproj.so.9.0: warning: sprintf() is often misused, please use snprintf()
+/usr/local/lib/libproj.so.9.0: warning: vsprintf() is often misused, please use vsnprintf()
+/usr/local/lib/libspatialindex.so.2.0: warning: mktemp() possibly used unsafely; consider using mkstemp()
+/usr/local/lib/libproj.so.9.0: warning: strcat() is almost always misused, please use strlcat()
+/usr/X11R6/lib/libGL.so.17.1: warning: random() may return deterministic values, is that what you want?
+/usr/local/lib/libglib-2.0.so.4201.0: warning: stpcpy() is dangerous; do not use it
+[1288/4555] Generating effects/moc_qgseffectdrawmodecombobox.cpp
+[1289/4555] Generating auth/moc_qgsauthimportidentitydialog.cpp
+[1290/4555] Generating auth/moc_qgsauthserverseditor.cpp
+[1291/4555] Generating auth/moc_qgsauthtrustedcasdialog.cpp
+[1292/4555] Generating auth/moc_qgsauthsslconfigwidget.cpp
+[1293/4555] Generating symbology/moc_qgssymbolslistwidget.cpp
+[1294/4555] Generating attributetable/moc_qgsorganizetablecolumnsdialog.cpp
+[1295/4555] Generating auth/moc_qgsauthconfigeditor.cpp
+[1296/4555] Generating symbology/moc_qgsvectorfieldsymbollayerwidget.cpp
+[1297/4555] Generating auth/moc_qgsauthconfigselect.cpp
+[1298/4555] Generating moc_qgsexpressionselectiondialog.cpp
+[1299/4555] Generating moc_qgsexpressionlineedit.cpp
+[1300/4555] Generating moc_qgserrordialog.cpp
+[1301/4555] Generating moc_qgsexpressionhighlighter.cpp
+[1302/4555] Generating moc_qgsfeatureselectiondlg.cpp
+[1303/4555] Generating moc_qgsencodingfiledialog.cpp
+[1304/4555] Generating moc_qgsfilterlineedit.cpp
+[1305/4555] Generating moc_qgsfieldcombobox.cpp
+[1306/4555] Generating moc_qgsdatumtransformdialog.cpp
+[1307/4555] Generating moc_qgscustomdrophandler.cpp
+[1308/4555] Generating moc_qgsexpressionbuilderwidget.cpp
+[1309/4555] Generating vector/moc_qgsgeometrysnapper.cpp
+[1310/4555] Generating qgsrastercalcparser.cpp
+[1311/4555] Generating processing/moc_qgsalgorithmfiledownloader.cpp
+[1312/4555] Generating vector/geometry_checker/moc_qgsgeometrychecker.cpp
+[1313/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsnaptogrid.cpp.o
+[1314/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmstringconcatenation.cpp.o
+[1315/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmswapxy.cpp.o
+[1316/4555] Running utility command for pycore
+[1317/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsubdivide.cpp.o
+[1318/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmvectorize.cpp.o
+[1319/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmwedgebuffers.cpp.o
+[1320/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmrotate.cpp.o
+[1321/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmreverselinedirection.cpp.o
+[1322/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsegmentize.cpp.o
+[1323/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmshortestpathpointtopoint.cpp.o
+[1324/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmassignprojection.cpp.o
+[1325/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmarrayfeatures.cpp.o
+[1326/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/MathUtils.cpp.o
+[1327/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmbuffer.cpp.o
+[1328/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsfeaturepool.cpp.o
+[1329/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/network/qgsnetworkdistancestrategy.cpp.o
+[1330/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/network/qgsgraphbuilder.cpp.o
+[1331/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/flex_qgsrastercalclexer.cpp.o
+[1332/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/moc_qgsnativealgorithms.cpp.o
+[1333/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmlineintersection.cpp.o
+[1334/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmminimumenclosingcircle.cpp.o
+[1335/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmmultiringconstantbuffer.cpp.o
+[1336/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmoffsetlines.cpp.o
+[1337/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsimplify.cpp.o
+[1338/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmshortestpathlayertopoint.cpp.o
+[1339/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmjoinbyattribute.cpp.o
+[1340/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmfiltervertices.cpp.o
+[1341/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmrenamelayer.cpp.o
+[1342/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmfixgeometries.cpp.o
+[1343/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmremoveholes.cpp.o
+[1344/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmremoveduplicatevertices.cpp.o
+[1345/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsrasteranalysisutils.cpp.o
+[1346/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsoverlayutils.cpp.o
+[1347/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsruggednessfilter.cpp.o
+[1348/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsninecellfilter.cpp.o
+[1349/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmextractbyattribute.cpp.o
+[1350/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmlinesubstring.cpp.o
+[1351/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmloadlayer.cpp.o
+[1352/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/qgsgeometrysnapper.cpp.o
+[1353/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsaspectfilter.cpp.o
+[1354/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgshillshadefilter.cpp.o
+[1355/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsalignraster.cpp.o
+[1356/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsrastercalcnode.cpp.o
+[1357/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/mersenne-twister.cpp.o
+[1358/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsrastermatrix.cpp.o
+[1359/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsrelief.cpp.o
+[1360/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgstotalcurvaturefilter.cpp.o
+[1361/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsslopefilter.cpp.o
+[1362/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsplitwithlines.cpp.o
+[1363/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmtransect.cpp.o
+[1364/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmuniquevalueindex.cpp.o
+[1365/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/qgsinterpolator.cpp.o
+[1366/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/LinTriangleInterpolator.cpp.o
+[1367/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryselfintersectioncheck.cpp.o
+[1368/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/qgstininterpolator.cpp.o
+[1369/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/qgsrastercalcparser.cpp.o
+[1370/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/moc_qgsgeometrysnapper.cpp.o
+[1371/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmjoinwithlines.cpp.o
+[1372/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmintersection.cpp.o
+[1373/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmimportphotos.cpp.o
+[1374/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrychecker.cpp.o
+[1375/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmboundingbox.cpp.o
+[1376/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmrasterlayeruniquevalues.cpp.o
+[1377/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/Vector3D.cpp.o
+[1378/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/NormVecDecorator.cpp.o
+[1379/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmprojectpointcartesian.cpp.o
+[1380/4555] Generating layout/moc_qgslayoutdesignerinterface.cpp
+[1381/4555] Generating layertree/moc_qgslayertreemapcanvasbridge.cpp
+[1382/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/moc_qgsgeometrychecker.cpp.o
+[1383/4555] Generating editorwidgets/moc_qgsvaluerelationwidgetwrapper.cpp
+[1384/4555] Generating layertree/moc_qgslayertreeembeddedconfigwidget.cpp
+[1385/4555] Generating layertree/moc_qgslayertreeviewitemdelegate.cpp
+[1386/4555] Generating layertree/moc_qgslayertreeviewindicator.cpp
+[1387/4555] Generating layout/moc_qgslayoutcustomdrophandler.cpp
+[1388/4555] Generating layertree/moc_qgslayertreeviewdefaultactions.cpp
+[1389/4555] Generating moc_qgsformannotation.cpp
+[1390/4555] Generating moc_qgsgradientcolorrampdialog.cpp
+[1391/4555] Generating moc_qgskeyvaluewidget.cpp
+[1392/4555] Generating moc_qgsfieldvalueslineedit.cpp
+[1393/4555] Generating moc_qgsfloatingwidget.cpp
+[1394/4555] Generating moc_qgsscrollarea.cpp
+[1395/4555] Generating moc_qgsrasterlayersaveasdialog.cpp
+[1396/4555] Generating moc_qgsscalecombobox.cpp
+[1397/4555] Generating moc_qgsrelationeditorwidget.cpp
+[1398/4555] Generating moc_qgsslider.cpp
+[1399/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmdifference.cpp.o
+[1400/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmdrape.cpp.o
+[1401/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmclip.cpp.o
+[1402/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmdbscanclustering.cpp.o
+[1403/4555] Generating symbology/moc_qgspointdisplacementrendererwidget.cpp
+[1404/4555] Generating symbology/moc_qgssinglesymbolrendererwidget.cpp
+[1405/4555] Generating symbology/moc_qgsarrowsymbollayerwidget.cpp
+[1406/4555] Generating symbology/moc_qgsinvertedpolygonrendererwidget.cpp
+[1407/4555] Generating symbology/moc_qgspointclusterrendererwidget.cpp
+[1408/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmcentroid.cpp.o
+[1409/4555] Generating raster/moc_qgshillshaderendererwidget.cpp
+[1410/4555] Generating symbology/moc_qgsbrushstylecombobox.cpp
+[1411/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrypointcoveredbylinecheck.cpp.o
+[1412/4555] Generating editorwidgets/moc_qgsrelationaggregatesearchwidgetwrapper.cpp
+[1413/4555] Generating editorwidgets/moc_qgsvaluemapsearchwidgetwrapper.cpp
+[1414/4555] Generating editorwidgets/moc_qgsvaluemapwidgetwrapper.cpp
+[1415/4555] Generating layout/moc_qgslayoutitemguiregistry.cpp
+[1416/4555] Automatic MOC for target qgis_ogrprovidertest
+[1417/4555] Building CXX object python/CMakeFiles/python_module_qgis__analysis.dir/analysis/sip_analysispart3.cpp.o
+[1418/4555] Building CXX object python/CMakeFiles/python_module_qgis__analysis.dir/analysis/sip_analysispart2.cpp.o
+[1419/4555] Building CXX object python/CMakeFiles/python_module_qgis__analysis.dir/analysis/sip_analysispart0.cpp.o
+[1420/4555] Generating moc_qgsmapcanvassnappingutils.cpp
+[1421/4555] Generating moc_qgsgradientstopeditor.cpp
+[1422/4555] Generating moc_qgshistogramwidget.cpp
+[1423/4555] Generating moc_qgsfontbutton.cpp
+[1424/4555] Generating moc_qgsfocuswatcher.cpp
+[1425/4555] Generating moc_qgslimitedrandomcolorrampdialog.cpp
+[1426/4555] Generating moc_qgsmapcanvasannotationitem.cpp
+[1427/4555] Generating moc_qgsfeaturelistcombobox.cpp
+[1428/4555] Generating moc_qgsfieldvalidator.cpp
+[1429/4555] Generating layout/moc_qgslayoutviewtoolmoveitemcontent.cpp
+[1430/4555] Generating layout/moc_qgslayoutviewtoolselect.cpp
+[1431/4555] Generating layout/moc_qgslayoutviewtooleditnodes.cpp
+[1432/4555] Generating layout/moc_qgslayoutview.cpp
+[1433/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmparallellines.cpp.o
+[1434/4555] Building CXX object python/CMakeFiles/python_module_qgis__analysis.dir/analysis/sip_analysispart1.cpp.o
+[1435/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmpackage.cpp.o
+[1436/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmpromotetomultipart.cpp.o
+[1437/4555] Automatic MOC for target qgis_gdalprovidertest
+[1438/4555] Automatic MOC for target qgis_wcsprovidertest
+[1439/4555] Building CXX object tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/qgis_gdalprovidertest_autogen/mocs_compilation.cpp.o
+[1440/4555] Building CXX object tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/testqgsgdalprovider.cpp.o
+[1441/4555] Generating editorwidgets/moc_qgsmultiedittoolbutton.cpp
+[1442/4555] Generating editorwidgets/moc_qgslistwidgetwrapper.cpp
+[1443/4555] Generating editorwidgets/moc_qgsrangeconfigdlg.cpp
+[1444/4555] Generating editorwidgets/moc_qgskeyvaluewidgetwrapper.cpp
+[1445/4555] Generating editorwidgets/moc_qgsdatetimeeditwrapper.cpp
+[1446/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/TriDecorator.cpp.o
+[1447/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/Triangulation.cpp.o
+[1448/4555] Generating symbology/moc_qgsgraduatedsymbolrendererwidget.cpp
+[1449/4555] Generating symbology/moc_qgsrendererpropertiesdialog.cpp
+[1450/4555] Generating symbology/moc_qgsrulebasedrendererwidget.cpp
+[1451/4555] Generating symbology/moc_qgssymbollevelsdialog.cpp
+[1452/4555] Generating symbology/moc_qgsstylemanagerdialog.cpp
+[1453/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmboundary.cpp.o
+[1454/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsreclassifyutils.cpp.o
+[1455/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsnativealgorithms.cpp.o
+[1456/4555] Building CXX object tests/src/providers/CMakeFiles/qgis_wcsprovidertest.dir/qgis_wcsprovidertest_autogen/mocs_compilation.cpp.o
+[1457/4555] Building CXX object tests/src/providers/CMakeFiles/qgis_wcsprovidertest.dir/testqgswcsprovider.cpp.o
+[1458/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/qgsidwinterpolator.cpp.o
+[1459/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/HalfEdge.cpp.o
+[1460/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/ParametricLine.cpp.o
+[1461/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/network/moc_qgsvectorlayerdirector.cpp.o
+[1462/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/DualEdgeTriangulation.cpp.o
+[1463/4555] Generating moc_qgsactionmenu.cpp
+[1464/4555] Generating moc_qgsaggregatetoolbutton.cpp
+[1465/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/moc_qgsalgorithmfiledownloader.cpp.o
+[1466/4555] Building CXX object tests/bench/CMakeFiles/qgis_bench.dir/qgsbench.cpp.o
+[1467/4555] Building CXX object tests/bench/CMakeFiles/qgis_bench.dir/moc_qgsbench.cpp.o
+[1468/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrycheck.cpp.o
+[1469/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrycheckerutils.cpp.o
+[1470/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrylineintersectioncheck.cpp.o
+[1471/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryduplicatenodescheck.cpp.o
+[1472/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryduplicatecheck.cpp.o
+[1473/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrydanglecheck.cpp.o
+[1474/4555] Generating symbology/moc_qgsellipsesymbollayerwidget.cpp
+[1475/4555] Generating raster/moc_qgssinglebandgrayrendererwidget.cpp
+[1476/4555] Generating symbology/moc_qgscategorizedsymbolrendererwidget.cpp
+[1477/4555] Generating raster/moc_qgsrastertransparencywidget.cpp
+[1478/4555] Generating symbology/moc_qgscptcitycolorrampdialog.cpp
+[1479/4555] Generating raster/moc_qgsrendererrasterpropertieswidget.cpp
+[1480/4555] Generating auth/moc_qgsauthconfigidedit.cpp
+[1481/4555] Generating auth/moc_qgsautheditorwidgets.cpp
+[1482/4555] Generating effects/moc_qgspainteffectpropertieswidget.cpp
+[1483/4555] Generating auth/moc_qgsauthmasterpassresetdialog.cpp
+[1484/4555] Generating auth/moc_qgsauthcertificatemanager.cpp
+[1485/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmtransform.cpp.o
+[1486/4555] Building CXX object tests/src/providers/CMakeFiles/qgis_ogrprovidertest.dir/qgis_ogrprovidertest_autogen/mocs_compilation.cpp.o
+[1487/4555] Building CXX object tests/src/providers/CMakeFiles/qgis_ogrprovidertest.dir/testqgsogrprovider.cpp.o
+[1488/4555] Linking CXX executable output/bin/qgis_ogrprovidertest
+/usr/local/lib/qt5/./libQt5Core.so.2.2: warning: rand_r() is not random, it is deterministic.
+/usr/local/lib/libgdal.so.32.0: warning: rand() may return deterministic values, is that what you want?
+/usr/local/lib/qt5/./libQt5Test.so.2.2: warning: strcpy() is almost always misused, please use strlcpy()
+/usr/local/lib/libproj.so.9.0: warning: sprintf() is often misused, please use snprintf()
+/usr/local/lib/libproj.so.9.0: warning: vsprintf() is often misused, please use vsnprintf()
+/usr/local/lib/libspatialindex.so.2.0: warning: mktemp() possibly used unsafely; consider using mkstemp()
+/usr/local/lib/libproj.so.9.0: warning: strcat() is almost always misused, please use strlcat()
+/usr/X11R6/lib/libGL.so.17.1: warning: random() may return deterministic values, is that what you want?
+/usr/local/lib/libglib-2.0.so.4201.0: warning: stpcpy() is dangerous; do not use it
+[1489/4555] Generating moc_qgsbrowserdockwidget.cpp
+[1490/4555] Generating moc_qgsdockwidget.cpp
+[1491/4555] Generating moc_qgsdial.cpp
+[1492/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryselfcontactcheck.cpp.o
+[1493/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrymultipartcheck.cpp.o
+[1494/4555] Generating moc_qgsdetaileditemdelegate.cpp
+[1495/4555] Generating moc_qgscompoundcolorwidget.cpp
+[1496/4555] Generating moc_qgsdetaileditemwidget.cpp
+[1497/4555] Generating moc_qgsbrowserdockwidget_p.cpp
+[1498/4555] Generating moc_qgsextentgroupbox.cpp
+[1499/4555] Generating moc_qgsexternalresourcewidget.cpp
+[1500/4555] Generating moc_qgsexpressionbuilderdialog.cpp
+[1501/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsmooth.cpp.o
+[1502/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmshortestpathpointtolayer.cpp.o
+[1503/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsaveselectedfeatures.cpp.o
+[1504/4555] Linking CXX shared library output/lib/libqgispython.so.3.3
+[1505/4555] Creating library symlink output/lib/libqgispython.so
+[1506/4555] Generating symbology/moc_qgssmartgroupeditordialog.cpp
+[1507/4555] Generating symbology/moc_qgssymbollayerwidget.cpp
+[1508/4555] Generating symbology/moc_qgsstylegroupselectiondialog.cpp
+[1509/4555] Generating moc_qgsmaplayerstylemanagerwidget.cpp
+[1510/4555] Generating moc_qgsnewmemorylayerdialog.cpp
+[1511/4555] Generating moc_qgsmaplayercombobox.cpp
+[1512/4555] Generating moc_qgsmessagelogviewer.cpp
+[1513/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrysliverpolygoncheck.cpp.o
+[1514/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrytypecheck.cpp.o
+[1515/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/network/moc_qgsgraphdirector.cpp.o
+[1516/4555] Generating editorwidgets/moc_qgsspinbox.cpp
+[1517/4555] Generating editorwidgets/moc_qgsvaluerelationsearchwidgetwrapper.cpp
+[1518/4555] Generating editorwidgets/moc_qgsuniquevaluesconfigdlg.cpp
+[1519/4555] Generating editorwidgets/moc_qgstexteditconfigdlg.cpp
+[1520/4555] Generating layertree/moc_qgslayertreeview.cpp
+[1521/4555] Generating editorwidgets/moc_qgstexteditwrapper.cpp
+[1522/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmconvexhull.cpp.o
+[1523/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmdropgeometry.cpp.o
+[1524/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmdropmzvalues.cpp.o
+[1525/4555] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmorientedminimumboundingbox.cpp.o
+[1526/4555] Generating moc_qgssnaptogridcanvasitem.cpp
+[1527/4555] Generating moc_qgssubstitutionlistwidget.cpp
+[1528/4555] Generating moc_qgsshortcutsmanager.cpp
+[1529/4555] Generating moc_qgssvgsourcelineedit.cpp
+[1530/4555] Generating moc_qgsproxystyle.cpp
+[1531/4555] Generating moc_qgsquerybuilder.cpp
+[1532/4555] cd /home/lbartoletti/prog/build/src/crssync && /home/lbartoletti/prog/build/output/bin/crssync
+[1533/4555] Building CXX object tests/bench/CMakeFiles/qgis_bench.dir/main.cpp.o
+[1534/4555] Linking CXX executable output/bin/qgis_gdalprovidertest
+FAILED: output/bin/qgis_gdalprovidertest 
+: && ccache /usr/bin/c++  -Wall -Wextra -Wno-long-long -Wformat-security -Wno-strict-aliasing -Wno-return-type-c-linkage -Wno-overloaded-virtual -Wimplicit-fallthrough -Qunused-arguments  -Qunused-arguments tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/testqgsgdalprovider.cpp.o tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/qgis_gdalprovidertest_autogen/mocs_compilation.cpp.o  -o output/bin/qgis_gdalprovidertest -L/home/lbartoletti/prog/build/src/core  -L/home/lbartoletti/prog/build/src/gui  -L/usr/local/lib/qt5/.  -L/usr/local/lib  -L/home/lbartoletti/prog/build/output/lib -Wl,-rpath,/home/lbartoletti/prog/build/src/core:/home/lbartoletti/prog/build/src/gui:/usr/local/lib/qt5/.:/home/lbartoletti/prog/build/output/lib:/usr/X11R6/lib -lQt5Test -lproj -lgeos_c -lgdal -lqgis_core -lQt5Xml -lQt5Svg -lQt5PrintSupport -lQt5WebKitWidgets -lQt5Widgets -lQt5WebKit -lQt5Gui -lQt5Network -lQt5Sql -lQt5Concurrent -lqca-qt5 -lqt5keychain -lproj -lgeos_c -lgdal -lspatialindex -lexpat -lsqlite3 -lspatialite -lzip -lQt5SerialPort -lQt5Positioning -lQt5Core -Wl,-z,wxneeded -Wl,-rpath-link,/usr/X11R6/lib:/usr/local/lib && :
+/usr/local/lib/qt5/./libQt5Core.so.2.2: warning: rand_r() is not random, it is deterministic.
+/usr/local/lib/libgdal.so.32.0: warning: rand() may return deterministic values, is that what you want?
+/usr/local/lib/qt5/./libQt5Test.so.2.2: warning: strcpy() is almost always misused, please use strlcpy()
+/usr/local/lib/libproj.so.9.0: warning: sprintf() is often misused, please use snprintf()
+/usr/local/lib/libproj.so.9.0: warning: vsprintf() is often misused, please use vsnprintf()
+/usr/local/lib/libspatialindex.so.2.0: warning: mktemp() possibly used unsafely; consider using mkstemp()
+/usr/local/lib/libproj.so.9.0: warning: strcat() is almost always misused, please use strlcat()
+/usr/X11R6/lib/libGL.so.17.1: warning: random() may return deterministic values, is that what you want?
+/usr/local/lib/libglib-2.0.so.4201.0: warning: stpcpy() is dangerous; do not use it
+tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/testqgsgdalprovider.cpp.o: In function `TestQgsGdalProvider::decodeUri()':
+testqgsgdalprovider.cpp:(.text+0x719): undefined reference to `QgsProviderRegistry::decodeUri(QString const&, QString const&)'
+testqgsgdalprovider.cpp:(.text+0x925): undefined reference to `QgsProviderRegistry::decodeUri(QString const&, QString const&)'
+c++: error: linker command failed with exit code 1 (use -v to see invocation)
+[1535/4555] Linking CXX executable output/bin/qgis_bench
+/usr/local/lib/libQt5Core.so.2.2: warning: rand_r() is not random, it is deterministic.
+/usr/local/lib/libgdal.so.32.0: warning: rand() may return deterministic values, is that what you want?
+/usr/local/lib/libQt5Test.so.2.2: warning: strcpy() is almost always misused, please use strlcpy()
+/usr/local/lib/libQt5WebKit.so.2.1: warning: sprintf() is often misused, please use snprintf()
+/usr/local/lib/libproj.so.9.0: warning: vsprintf() is often misused, please use vsnprintf()
+/usr/local/lib/libspatialindex.so.2.0: warning: mktemp() possibly used unsafely; consider using mkstemp()
+/usr/local/lib/libproj.so.9.0: warning: strcat() is almost always misused, please use strlcat()
+/usr/X11R6/lib/libGL.so.17.1: warning: random() may return deterministic values, is that what you want?
+/usr/local/lib/libglib-2.0.so.4201.0: warning: stpcpy() is dangerous; do not use it
+ninja: build stopped: subcommand failed.
+[1/3035] Generating moc_qgsscalewidget.cpp
+[2/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmremovenullgeometry.cpp.o
+[3/3035] Generating moc_qgscolorrampbutton.cpp
+[4/3035] Generating moc_qgsdialog.cpp
+[5/3035] Generating editorwidgets/core/moc_qgseditorwidgetwrapper.cpp
+[6/3035] Generating attributetable/moc_qgsifeatureselectionmanager.cpp
+[7/3035] Generating attributetable/moc_qgsfeaturelistview.cpp
+[8/3035] Generating attributetable/moc_qgsdualview.cpp
+[9/3035] Generating symbology/moc_qgslayerpropertieswidget.cpp
+[10/3035] Running utility command for pyutils
+[11/3035] Running utility command for pyqtcompat
+[12/3035] Generating symbology/moc_qgsdashspacedialog.cpp
+[13/3035] Generating symbology/moc_qgsgraduatedhistogramwidget.cpp
+[14/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/TriangleInterpolator.cpp.o
+[15/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmkmeansclustering.cpp.o
+[16/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmmergelines.cpp.o
+[17/3035] Generating editorwidgets/moc_qgsexternalresourcewidgetwrapper.cpp
+[18/3035] Generating layout/moc_qgslayoutviewtooltemporarykeypan.cpp
+[19/3035] Generating editorwidgets/moc_qgsdoublespinbox.cpp
+[20/3035] Generating moc_qgstextformatwidget.cpp
+[21/3035] Generating moc_qgsscalerangewidget.cpp
+[22/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmextenttolayer.cpp.o
+[23/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmextendlines.cpp.o
+[24/3035] Generating auth/moc_qgsauthconfigedit.cpp
+[25/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmunion.cpp.o
+[26/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmtranslate.cpp.o
+[27/3035] Generating moc_qgsludialog.cpp
+[28/3035] Generating moc_qgslistwidget.cpp
+[29/3035] Generating moc_qgshighlight.cpp
+[30/3035] Generating moc_qgsblendmodecombobox.cpp
+[31/3035] Generating moc_qgscodeeditorsql.cpp
+[32/3035] Generating moc_qgsnewauxiliaryfielddialog.cpp
+[33/3035] Generating moc_qgscharacterselectordialog.cpp
+[34/3035] Generating moc_qgscolorbrewercolorrampdialog.cpp
+[35/3035] Generating moc_qgscodeeditorcss.cpp
+[36/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/CloughTocherInterpolator.cpp.o
+[37/3035] Running utility command for pycore
+[38/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryfollowboundariescheck.cpp.o
+[39/3035] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryoverlapcheck.cpp.o
+[40/3035] Generating moc_qgsmaplayeractionregistry.cpp
+[41/3035] Generating moc_qgsmaptool.cpp
+[42/3035] Generating moc_qgsmaptip.cpp
+[43/3035] Generating moc_qgslonglongvalidator.cpp
+[44/3035] Automatic MOC for target qgis_ogrprovidertest
+[45/3033] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmdissolve.cpp.o
+[46/3033] Generating attributetable/moc_qgsfeatureselectionmodel.cpp
+[47/3033] Generating auth/moc_qgsauthauthoritieseditor.cpp
+[48/3033] Generating attributetable/moc_qgsgenericfeatureselectionmanager.cpp
+[49/3033] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsderivativefilter.cpp.o
+[50/3033] Generating editorwidgets/moc_qgsrangewidgetwrapper.cpp
+[51/3033] Generating moc_qgscredentialdialog.cpp
+[52/3033] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/Bezier3D.cpp.o
+[53/3033] Generating moc_qgssymbolbutton.cpp
+[54/3033] Generating moc_qgsstatusbar.cpp
+[55/3033] Generating moc_qgssublayersdialog.cpp
+[56/3033] Generating moc_qgsratiolockbutton.cpp
+[57/3033] Generating moc_qgslegendfilterbutton.cpp
+[58/3033] Generating moc_qgsmapcanvas.cpp
+[59/3033] Generating moc_qgsmapcanvastracer.cpp
+[60/3033] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmreclassifybylayer.cpp.o
+[61/3033] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmpointonsurface.cpp.o
+[62/3033] Generating attributetable/moc_qgsfieldconditionalformatwidget.cpp
+[63/3033] cd /home/lbartoletti/prog/build/src/crssync && /home/lbartoletti/prog/build/output/bin/crssync
+[64/3033] Generating attributetable/moc_qgsfeaturelistviewdelegate.cpp
+[65/3033] Generating moc_qgsgroupwmsdatadialog.cpp
+[66/3033] Automatic MOC for target qgis_wcsprovidertest
+[67/3032] Generating auth/moc_qgsauthimportcertdialog.cpp
+[68/3032] Generating moc_qgsgpxprovider.cpp
+[69/3032] Generating auth/moc_qgsauthsettingswidget.cpp
+[70/3032] Building CXX object src/providers/gpx/CMakeFiles/gpxprovider.dir/gpsdata.cpp.o
+[71/3032] Building CXX object src/providers/gpx/CMakeFiles/gpxprovider.dir/qgsgpxprovider.cpp.o
+[72/3032] Building CXX object src/providers/gpx/CMakeFiles/gpxprovider.dir/qgsgpxfeatureiterator.cpp.o
+[73/3032] Building CXX object src/providers/gpx/CMakeFiles/gpxprovider.dir/moc_qgsgpxprovider.cpp.o
+[74/3032] Generating effects/moc_qgspainteffectwidget.cpp
+[75/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrygapcheck.cpp.o
+[76/3032] Generating editorwidgets/moc_qgscolorwidgetwrapper.cpp
+[77/3032] Generating editorwidgets/moc_qgsdefaultsearchwidgetwrapper.cpp
+[78/3032] Generating editorwidgets/core/moc_qgswidgetwrapper.cpp
+[79/3032] Generating moc_qgscurveeditorwidget.cpp
+[80/3032] Generating moc_qgsconfigureshortcutsdialog.cpp
+[81/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmextractbylocation.cpp.o
+[82/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmfiledownloader.cpp.o
+[83/3032] Running utility command for zzz-processing-stageinstall
+[84/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/network/qgsnetworkspeedstrategy.cpp.o
+[85/3032] Linking CXX executable output/bin/qgis_wcsprovidertest
+/usr/local/lib/qt5/./libQt5Core.so.2.2: warning: rand_r() is not random, it is deterministic.
+/usr/local/lib/libgdal.so.32.0: warning: rand() may return deterministic values, is that what you want?
+/usr/local/lib/qt5/./libQt5Test.so.2.2: warning: strcpy() is almost always misused, please use strlcpy()
+/usr/local/lib/libproj.so.9.0: warning: sprintf() is often misused, please use snprintf()
+/usr/local/lib/libproj.so.9.0: warning: vsprintf() is often misused, please use vsnprintf()
+/usr/local/lib/libspatialindex.so.2.0: warning: mktemp() possibly used unsafely; consider using mkstemp()
+/usr/local/lib/libproj.so.9.0: warning: strcat() is almost always misused, please use strlcat()
+/usr/X11R6/lib/libGL.so.17.1: warning: random() may return deterministic values, is that what you want?
+/usr/local/lib/libglib-2.0.so.4201.0: warning: stpcpy() is dangerous; do not use it
+[86/3032] Linking CXX shared module output/lib/qgis/plugins/libgpxprovider.so
+[87/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmtaperedbuffer.cpp.o
+[88/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmsymmetricaldifference.cpp.o
+[89/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmzonalhistogram.cpp.o
+[90/3032] Generating moc_qgscolorwidgets.cpp
+[91/3032] Generating raster/moc_qgssinglebandpseudocolorrendererwidget.cpp
+[92/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmnetworkanalysisbase.cpp.o
+[93/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmorderbyexpression.cpp.o
+[94/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmmeancoordinates.cpp.o
+[95/3032] Generating moc_qgscolorschemelist.cpp
+[96/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithminterpolatepoint.cpp.o
+[97/3032] Generating symbology/moc_qgsheatmaprendererwidget.cpp
+[98/3032] Generating moc_qgsfilewidget.cpp
+[99/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryareacheck.cpp.o
+[100/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgskde.cpp.o
+[101/3032] Generating moc_qgsoptionsdialoghighlightwidgetsimpl.cpp
+[102/3032] Generating moc_qgsoptionswidgetfactory.cpp
+[103/3032] Generating moc_qgsnewnamedialog.cpp
+[104/3032] Generating moc_qgsmenuheader.cpp
+[105/3032] Generating moc_qgsmaptoolzoom.cpp
+[106/3032] Generating processing/moc_qgsprocessingtoolboxmodel.cpp
+[107/3032] Generating processing/moc_qgsprocessingwidgetwrapper.cpp
+[108/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmexplode.cpp.o
+[109/3032] Generating moc_qgssqlcomposerdialog.cpp
+[110/3032] Generating raster/moc_qgsrasterbandcombobox.cpp
+[111/3032] Generating moc_qgsdatasourcemanagerdialog.cpp
+[112/3032] Generating moc_qgstaskmanagerwidget.cpp
+[113/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmaddincrementalfield.cpp.o
+[114/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrydegeneratepolygoncheck.cpp.o
+[115/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrycontainedcheck.cpp.o
+[116/3032] Generating symbology/moc_qgsdatadefinedsizelegendwidget.cpp
+[117/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryanglecheck.cpp.o
+[118/3032] Generating attributetable/moc_qgsattributetablemodel.cpp
+[119/3032] Generating attributetable/moc_qgsfeaturelistmodel.cpp
+[120/3032] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmmergevector.cpp.o
+[121/3032] Automatic MOC for target qgis_gdalprovidertest
+[122/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/interpolation/qgsgridfilewriter.cpp.o
+[123/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrylinelayerintersectioncheck.cpp.o
+[124/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometryholecheck.cpp.o
+[125/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrysegmentlengthcheck.cpp.o
+[126/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/vector/geometry_checker/qgsgeometrypointinpolygoncheck.cpp.o
+[127/3031] Running utility command for pytesting
+[128/3031] Generating editorwidgets/moc_qgsdummyconfigdlg.cpp
+[129/3031] Generating editorwidgets/moc_qgscheckboxconfigdlg.cpp
+[130/3031] Generating editorwidgets/moc_qgsrelationreferenceconfigdlg.cpp
+[131/3031] Generating editorwidgets/moc_qgsclassificationwidgetwrapper.cpp
+[132/3031] Generating editorwidgets/moc_qgsdatetimesearchwidgetwrapper.cpp
+[133/3031] Generating processing/moc_qgsprocessingmodelerparameterwidget.cpp
+[134/3031] Generating processing/moc_qgsprocessingrecentalgorithmlog.cpp
+[135/3031] Generating raster/moc_qgsrasterrendererwidget.cpp
+[136/3031] Generating moc_qgsvscrollarea.cpp
+[137/3031] Generating moc_qgsrasterpyramidsoptionswidget.cpp
+[138/3031] Generating moc_qgsscalevisibilitydialog.cpp
+[139/3031] Generating moc_qgsidentifymenu.cpp
+[140/3031] Generating moc_qgsfieldexpressionwidget.cpp
+[141/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/network/qgsgraph.cpp.o
+[142/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/raster/qgsrastercalculator.cpp.o
+[143/3031] Generating processing/moc_qgsprocessingconfigurationwidgets.cpp
+[144/3031] Generating processing/moc_qgsprocessingalgorithmdialogbase.cpp
+[145/3031] Linking CXX executable output/bin/qgis_gdalprovidertest
+FAILED: output/bin/qgis_gdalprovidertest 
+: && ccache /usr/bin/c++  -Wall -Wextra -Wno-long-long -Wformat-security -Wno-strict-aliasing -Wno-return-type-c-linkage -Wno-overloaded-virtual -Wimplicit-fallthrough -Qunused-arguments  -Qunused-arguments tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/testqgsgdalprovider.cpp.o tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/qgis_gdalprovidertest_autogen/mocs_compilation.cpp.o  -o output/bin/qgis_gdalprovidertest -L/home/lbartoletti/prog/build/src/core  -L/home/lbartoletti/prog/build/src/gui  -L/usr/local/lib/qt5/.  -L/usr/local/lib  -L/home/lbartoletti/prog/build/output/lib -Wl,-rpath,/home/lbartoletti/prog/build/src/core:/home/lbartoletti/prog/build/src/gui:/usr/local/lib/qt5/.:/home/lbartoletti/prog/build/output/lib:/usr/X11R6/lib -lQt5Test -lproj -lgeos_c -lgdal -lqgis_core -lQt5Xml -lQt5Svg -lQt5PrintSupport -lQt5WebKitWidgets -lQt5Widgets -lQt5WebKit -lQt5Gui -lQt5Network -lQt5Sql -lQt5Concurrent -lqca-qt5 -lqt5keychain -lproj -lgeos_c -lgdal -lspatialindex -lexpat -lsqlite3 -lspatialite -lzip -lQt5SerialPort -lQt5Positioning -lQt5Core -Wl,-z,wxneeded -Wl,-rpath-link,/usr/X11R6/lib:/usr/local/lib && :
+/usr/local/lib/qt5/./libQt5Core.so.2.2: warning: rand_r() is not random, it is deterministic.
+/usr/local/lib/libgdal.so.32.0: warning: rand() may return deterministic values, is that what you want?
+/usr/local/lib/qt5/./libQt5Test.so.2.2: warning: strcpy() is almost always misused, please use strlcpy()
+/usr/local/lib/libproj.so.9.0: warning: sprintf() is often misused, please use snprintf()
+/usr/local/lib/libproj.so.9.0: warning: vsprintf() is often misused, please use vsnprintf()
+/usr/local/lib/libspatialindex.so.2.0: warning: mktemp() possibly used unsafely; consider using mkstemp()
+/usr/local/lib/libproj.so.9.0: warning: strcat() is almost always misused, please use strlcat()
+/usr/X11R6/lib/libGL.so.17.1: warning: random() may return deterministic values, is that what you want?
+/usr/local/lib/libglib-2.0.so.4201.0: warning: stpcpy() is dangerous; do not use it
+tests/src/providers/CMakeFiles/qgis_gdalprovidertest.dir/testqgsgdalprovider.cpp.o: In function `TestQgsGdalProvider::decodeUri()':
+testqgsgdalprovider.cpp:(.text+0x719): undefined reference to `QgsProviderRegistry::decodeUri(QString const&, QString const&)'
+testqgsgdalprovider.cpp:(.text+0x925): undefined reference to `QgsProviderRegistry::decodeUri(QString const&, QString const&)'
+c++: error: linker command failed with exit code 1 (use -v to see invocation)
+[146/3031] Building CXX object src/analysis/CMakeFiles/qgis_analysis.dir/processing/qgsalgorithmmultiparttosinglepart.cpp.o
+ninja: build stopped: subcommand failed.
