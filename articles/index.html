@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Articles</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🐳</text></svg>">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="nimib 0.3.11" name="generator">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css"><style>
+:root {
+  --background-body: #202020;
+  --background: #202020;
+  --background-alt: #2a2a2a;
+  --selection: #dddddd;
+  --text-main: #dddddd;
+  --text-bright: #0072F2;
+  --text-muted: #8c8c8c;
+  --links: #0DFFF8;
+  --focus: #ED0F1C;
+  --border: #FFA919;
+  --code: #FF3542;
+  --animation-duration: 0.1s;
+  --button-base: #0072F2;
+  --button-hover: #4DA5FF;
+  --scrollbar-thumb: var(--button-hover);
+  --scrollbar-thumb-hover: color-mod(var(--scrollbar-thumb) lightness(-30%));
+  --form-placeholder: #FFA919;
+  --form-text: #0DFFF8;
+  --variable: #FF3542;
+  --highlight: #FF19CD;
+  --select-arrow: svg-load('./assets/select-arrow.svg', fill: #0072F2);
+}
+</style>
+
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/pietroppeter/nimib/assets/androidstudio.css'>
+    <script src="https://cdn.jsdelivr.net/gh/pietroppeter/nimib@main/assets/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+  <style>
+.nb-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nb-small {
+  font-size: 0.8rem;
+}
+button.nb-small {
+  float: right;
+  padding: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+section#source {
+  display:none
+}
+pre > code {
+  font-size: 1.2em;
+}
+.nb-output {
+  line-height: 1.15;
+}
+figure {
+  margin: 2rem 0;
+}
+figcaption {
+  text-align: center;
+}
+  
+</style>
+  
+</head>
+<body>
+<header>
+<div class="nb-box">
+  <span><a href="..">🏡</a> - <a href="../now.html">🎯</a> - <a href="../projects.html">🛠</a> - <a href="../articles/index.html">📚</a> </span>
+  <span>Articles</span>
+  <span><a href="https://github.com/lbartoletti"><svg aria-hidden="true" width="1.2em" height="1.2em" style="vertical-align: middle; fill: #fff" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a> - <a href="https://gitlab.com/lbartoletti"><svg width="16" height="16" viewBox="0 0 32 32" style="vertical-align: middle;" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M31.4618 12.7787L31.417 12.6641L27.0667 1.31308C26.9783 1.09046 26.8218 0.90145 26.6197 0.773028C26.416 0.644476 26.1775 0.582308 25.937 0.595107C25.6965 0.607906 25.4659 0.695039 25.277 0.844481C25.0899 0.994513 24.955 1.1998 24.8915 1.43106L21.9503 10.4324H10.0509L7.10976 1.43106C7.04625 1.1998 6.91133 0.994513 6.72425 0.844481C6.53618 0.694035 6.30572 0.606246 6.06523 0.593431C5.82473 0.580616 5.58625 0.64342 5.38326 0.773028C5.18023 0.900924 5.02312 1.09005 4.9346 1.31308L0.579314 12.679L0.534448 12.792C-0.0907536 14.429 -0.167604 16.2247 0.315452 17.9091C0.798508 19.5935 1.81536 21.0756 3.21309 22.1324L3.22971 22.144L3.26793 22.1739L9.90306 27.1407L13.1832 29.625L15.1773 31.1354C15.4115 31.3124 15.6971 31.4082 15.9907 31.4082C16.2842 31.4082 16.5698 31.3124 16.8041 31.1354L18.7981 29.625L22.0799 27.1407L28.7533 22.144L28.7715 22.1307C30.174 21.0749 31.1949 19.5916 31.6802 17.9045C32.1656 16.2175 32.0889 14.4184 31.4618 12.7787Z" fill="#E24329"></path><path d="M31.462 12.7787L31.4172 12.6641C29.2955 13.1013 27.2962 14.0005 25.5614 15.2978L16.0083 22.5378C19.2652 25.0005 22.1001 27.1407 22.1001 27.1407L28.7734 22.144L28.7917 22.1307C30.1907 21.0723 31.2076 19.5877 31.6893 17.9009C32.171 16.214 32.0912 14.4163 31.462 12.7787Z" fill="#FC6D26"></path><path d="M9.9082 27.1407L13.1834 29.625L15.1774 31.1354C15.4117 31.3124 15.6972 31.4082 15.9908 31.4082C16.2844 31.4082 16.57 31.3124 16.8042 31.1354L18.7982 29.625L22.0801 27.1407C22.0801 27.1407 19.2452 25.0005 15.9883 22.5378L9.9082 27.1407Z" fill="#FCA326"></path><path d="M6.43513 15.3045C4.70076 14.0067 2.70123 13.108 0.579333 12.6724L0.534467 12.7854C-0.0923403 14.4232 -0.170036 16.2203 0.313079 17.9061C0.796194 19.5919 1.81396 21.0751 3.21311 22.1324L3.22973 22.144L3.26795 22.1739L9.90307 27.1407L16.0081 22.5378L6.43513 15.3045Z" fill="#FC6D26"></path></svg></a> - <a href="https://www.linkedin.com/in/lbartoletti"><svg width="16" height="16" viewBox="0 0 24 24" style="vertical-align: middle;" preserveAspectRatio="xMidYMid meet" fill="#0a66c2" xmlns="http://www.w3.org/2000/svg" role="img"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg></a></span>
+</div>
+<hr>
+</header><main>
+<h2>Articles</h2>
+<p>Coming soon</p>
+</main>
+<footer>
+<div class="nb-box">
+  <span><span class="nb-small">made with <a href="https://pietroppeter.github.io/nimib/">nimib 🐳</a></span></span>
+  <span> <a href="https://www.buymeacoffee.com/lbartoletti" target="_blank" rel="noopener noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 32px;"></a></span>
+  <span><button class="nb-small" id="show" onclick="toggleSourceDisplay()">Show Source</button></span>
+</div>
+</footer>
+<section id="source">
+<pre><code class="nohighlight nim hljs"><span class="hljs-keyword">import</span> strformat, strutils
+<span class="hljs-keyword">import</span> nimib
+<span class="hljs-keyword">import</span> nimoji
+<span class="hljs-keyword">from</span> nimib/themes <span class="hljs-keyword">import</span> waterDark
+<span class="hljs-keyword">const</span> style = waterDark &amp; <span class="hljs-string">&quot;&quot;&quot;
+&lt;style&gt;
+:root {
+  --background-body: #202020;
+  --background: #202020;
+  --background-alt: #2a2a2a;
+  --selection: #dddddd;
+  --text-main: #dddddd;
+  --text-bright: #0072F2;
+  --text-muted: #8c8c8c;
+  --links: #0DFFF8;
+  --focus: #ED0F1C;
+  --border: #FFA919;
+  --code: #FF3542;
+  --animation-duration: 0.1s;
+  --button-base: #0072F2;
+  --button-hover: #4DA5FF;
+  --scrollbar-thumb: var(--button-hover);
+  --scrollbar-thumb-hover: color-mod(var(--scrollbar-thumb) lightness(-30%));
+  --form-placeholder: #FFA919;
+  --form-text: #0DFFF8;
+  --variable: #FF3542;
+  --highlight: #FF19CD;
+  --select-arrow: svg-load('./assets/select-arrow.svg', fill: #0072F2);
+}
+&lt;/style&gt;
+&quot;&quot;&quot;</span>
+<span class="hljs-keyword">let</span> header_left = <span class="hljs-string">&quot;&quot;&quot;&lt;a href=&quot;{{path_to_root}}&quot;&gt;:house_with_garden:&lt;/a&gt; - &lt;a href=&quot;{{path_to_root}}/now.html&quot;&gt;:dart:&lt;/a&gt; - &lt;a href=&quot;{{path_to_root}}/projects.html&quot;&gt;:hammer_and_wrench:&lt;/a&gt; - &lt;a href=&quot;{{path_to_root}}/articles/index.html&quot;&gt;:books:&lt;/a&gt; &quot;&quot;&quot;</span>.emojize
+<span class="hljs-keyword">const</span> gitlab_logo = <span class="hljs-string">&quot;&quot;&quot;&lt;svg width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 32 32&quot; style=&quot;vertical-align: middle;&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M31.4618 12.7787L31.417 12.6641L27.0667 1.31308C26.9783 1.09046 26.8218 0.90145 26.6197 0.773028C26.416 0.644476 26.1775 0.582308 25.937 0.595107C25.6965 0.607906 25.4659 0.695039 25.277 0.844481C25.0899 0.994513 24.955 1.1998 24.8915 1.43106L21.9503 10.4324H10.0509L7.10976 1.43106C7.04625 1.1998 6.91133 0.994513 6.72425 0.844481C6.53618 0.694035 6.30572 0.606246 6.06523 0.593431C5.82473 0.580616 5.58625 0.64342 5.38326 0.773028C5.18023 0.900924 5.02312 1.09005 4.9346 1.31308L0.579314 12.679L0.534448 12.792C-0.0907536 14.429 -0.167604 16.2247 0.315452 17.9091C0.798508 19.5935 1.81536 21.0756 3.21309 22.1324L3.22971 22.144L3.26793 22.1739L9.90306 27.1407L13.1832 29.625L15.1773 31.1354C15.4115 31.3124 15.6971 31.4082 15.9907 31.4082C16.2842 31.4082 16.5698 31.3124 16.8041 31.1354L18.7981 29.625L22.0799 27.1407L28.7533 22.144L28.7715 22.1307C30.174 21.0749 31.1949 19.5916 31.6802 17.9045C32.1656 16.2175 32.0889 14.4184 31.4618 12.7787Z&quot; fill=&quot;#E24329&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M31.462 12.7787L31.4172 12.6641C29.2955 13.1013 27.2962 14.0005 25.5614 15.2978L16.0083 22.5378C19.2652 25.0005 22.1001 27.1407 22.1001 27.1407L28.7734 22.144L28.7917 22.1307C30.1907 21.0723 31.2076 19.5877 31.6893 17.9009C32.171 16.214 32.0912 14.4163 31.462 12.7787Z&quot; fill=&quot;#FC6D26&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M9.9082 27.1407L13.1834 29.625L15.1774 31.1354C15.4117 31.3124 15.6972 31.4082 15.9908 31.4082C16.2844 31.4082 16.57 31.3124 16.8042 31.1354L18.7982 29.625L22.0801 27.1407C22.0801 27.1407 19.2452 25.0005 15.9883 22.5378L9.9082 27.1407Z&quot; fill=&quot;#FCA326&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M6.43513 15.3045C4.70076 14.0067 2.70123 13.108 0.579333 12.6724L0.534467 12.7854C-0.0923403 14.4232 -0.170036 16.2203 0.313079 17.9061C0.796194 19.5919 1.81396 21.0751 3.21311 22.1324L3.22973 22.144L3.26795 22.1739L9.90307 27.1407L16.0081 22.5378L6.43513 15.3045Z&quot; fill=&quot;#FC6D26&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&quot;&quot;&quot;</span>
+<span class="hljs-keyword">const</span> linkedin_logo =  <span class="hljs-string">&quot;&quot;&quot;&lt;svg width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 24 24&quot; style=&quot;vertical-align: middle;&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; fill=&quot;#0a66c2&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&quot;&quot;&quot;</span>
+<span class="hljs-keyword">const</span> header_right =  <span class="hljs-string">&quot;&quot;&quot;&lt;a href=&quot;https://github.com/lbartoletti&quot;&gt;{{{github_logo}}}&lt;/a&gt; - &lt;a href=&quot;https://gitlab.com/lbartoletti&quot;&gt;{{{gitlab_logo}}}&lt;/a&gt; - &lt;a href=&quot;https://www.linkedin.com/in/lbartoletti&quot;&gt;{{{linkedin_logo}}}&lt;/a&gt;&quot;&quot;&quot;</span>
+<span class="hljs-keyword">const</span> footer_center = <span class="hljs-string">&quot;&quot;&quot; &lt;a href=&quot;https://www.buymeacoffee.com/lbartoletti&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img src=&quot;https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png&quot; alt=&quot;Buy Me A Coffee&quot; style=&quot;height: 32px;&quot;&gt;&lt;/a&gt;&quot;&quot;&quot;</span>
+
+<span class="hljs-keyword">let</span> title = <span class="hljs-string">&quot;Articles&quot;</span>
+
+nbInit
+nb.darkMode
+nb.context[<span class="hljs-string">&quot;gitlab_logo&quot;</span>] =  gitlab_logo 
+nb.context[<span class="hljs-string">&quot;linkedin_logo&quot;</span>] = linkedin_logo
+nb.context[<span class="hljs-string">&quot;stylesheet&quot;</span>] = style
+nb.partials[<span class="hljs-string">&quot;header_left&quot;</span>] = header_left
+nb.partials[<span class="hljs-string">&quot;header_center&quot;</span>] = title
+nb.partials[<span class="hljs-string">&quot;header_right&quot;</span>] = header_right
+nb.partials[<span class="hljs-string">&quot;footer_center&quot;</span>] = footer_center
+
+nb.title = title
+
+nbText: <span class="hljs-string">&quot;&quot;&quot;
+## Articles
+Coming soon
+&quot;&quot;&quot;</span>
+
+nbSave
+
+</code></pre>
+</section><script>
+function toggleSourceDisplay() {
+  var btn = document.getElementById("show")
+  var source = document.getElementById("source");
+  if (btn.innerHTML=="Show Source") {
+    btn.innerHTML = "Hide Source";
+    source.style.display = "block";
+  } else {
+    btn.innerHTML = "Show Source";
+    source.style.display = "none";
+  }
+}
+</script></body>
+</html>
