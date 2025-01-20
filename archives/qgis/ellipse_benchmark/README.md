@@ -29,8 +29,8 @@ The benchmarks were run on three different platforms:
 ### Fedora
 - **Environment**: Proxmox Container with 24 CPU cores
 - **Compilers**:
-  - Clang++ (versions 15-20)
-  - GCC (versions 12-15)
+  - Clang++ (version 19)
+  - GCC (version 14)
 - **Results**: Located in `/fedora` directory
 - **File naming**: Same convention as FreeBSD
 
